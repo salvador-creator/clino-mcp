@@ -69,7 +69,7 @@ See [`examples/`](examples) for full requests and responses.
 
 ## Open data
 
-The figures the server uses are published here under **CC BY 4.0** (attribution: Clino, clino.ch):
+The figures the server uses are published here under **CC BY 4.0** ([LICENSE](LICENSE)). Attribution: "Clino (clino.ch)" with a link to https://clino.ch/en/sources. General information, not legal advice, provided without warranty.
 
 | File | Content |
 |---|---|
