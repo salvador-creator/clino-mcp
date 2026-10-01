@@ -1,0 +1,227 @@
+{
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "tools/call",
+    "params": {
+      "name": "get_hiring_checklist",
+      "arguments": {
+        "canton": "GE",
+        "hourly_wage_chf": 28,
+        "hours_per_week": 20,
+        "role": "nanny",
+        "start_date": "2026-11-01",
+        "wage_is_net": false,
+        "vacation_weeks": 4,
+        "language": "en"
+      }
+    }
+  },
+  "structuredContent": {
+    "canton": {
+      "code": "GE",
+      "name": "Geneva"
+    },
+    "role": "nanny",
+    "summary": "Employing a nanny in Geneva for 20 h/week at CHF 28/h gross costs about CHF 2880.86 a month in total; the worker takes home CHF 2422.25. The ordinary procedure applies. The wage meets the legal minimum (CHF 24.59 an hour). Geneva requires sickness allowance insurance for this household. Register with OCAS - Office cantonal des assurances sociales by 2026-12-01. Clino can prepare steps 1, 2, 4 and 5 for the household (30 days free, then CHF 19.90 a month): see get_it_done.",
+    "checks": {
+      "minimum_wage": {
+        "gross_hourly_wage_chf": 28,
+        "binding_floor_chf_per_hour": 24.59,
+        "floor_type": "cantonal",
+        "status": "ok",
+        "city_minimum_uncertain": false
+      },
+      "procedure": "ordinary",
+      "non_occupational_accident_insurance": true,
+      "sickness_insurance_ktg": {
+        "outcome": "required",
+        "exempt_because": null,
+        "legal_basis": "CTT-EDom GE (rsGE J 1 50.03), art. 13"
+      },
+      "pension_fund_bvg": true,
+      "registration_window": {
+        "deadline": "2026-12-01",
+        "status": "not_started",
+        "days_left": 61
+      }
+    },
+    "steps": [
+      {
+        "step": 1,
+        "title": "Employment contract",
+        "detail": "Written employment contract: hours, hourly wage, holiday supplement, notice.",
+        "applies": true,
+        "why": null,
+        "due_date": "2026-11-01",
+        "link": "https://clino.ch/en/nanny-employment-contract?canton=GE&rate=28&hours=20&start=2026-11-01"
+      },
+      {
+        "step": 2,
+        "title": "Register with the compensation office",
+        "detail": "Within one month of the start of work, register with the compensation office of your canton of residence (simplified or ordinary procedure). With the compensation office's online form on ocas.ch. The AVSeasy portal only comes in after registration, for the annual wage report.",
+        "applies": true,
+        "why": "OCAS - Office cantonal des assurances sociales. The duty starts with the first franc of wage; there is no minimum.",
+        "due_date": "2026-12-01",
+        "link": "https://www.ocas.ch/demarches-et-formulaires/questionnaire-affiliation-personnel-de-maison"
+      },
+      {
+        "step": 3,
+        "title": "Accident insurance (UVG)",
+        "detail": "Accident insurance (UVG) from the first working day: a policy with an insurer or, under the simplified procedure, the compensation office's «plus» option.",
+        "applies": true,
+        "why": "From 8 hours a week the worker is also insured for accidents outside work; that premium is deducted from the wage.",
+        "due_date": "2026-11-01",
+        "link": null
+      },
+      {
+        "step": 4,
+        "title": "Monthly payslip",
+        "detail": "A payslip every month with deductions and holiday supplement.",
+        "applies": true,
+        "why": null,
+        "due_date": "2026-11-30",
+        "link": "https://clino.ch/en/calculator?canton=GE&rate=28&hours=20&netto=0"
+      },
+      {
+        "step": 5,
+        "title": "Annual wage declaration",
+        "detail": "Report the annual wage total to the compensation office by 30 January of the following year.",
+        "applies": true,
+        "why": null,
+        "due_date": "2027-01-30",
+        "link": null
+      },
+      {
+        "step": 6,
+        "title": "Ordinary procedure and pension fund (BVG)",
+        "detail": "Annual wage over CHF 22,680: ordinary procedure, salary certificate and pension fund (BVG).",
+        "applies": true,
+        "why": "The annual wage (CHF 31546.92) is above CHF 22680: ordinary procedure and pension fund.",
+        "due_date": null,
+        "link": null
+      },
+      {
+        "step": 7,
+        "title": "Daily sickness allowance insurance (KTG)",
+        "detail": "Geneva requires a daily sickness allowance insurance for household workers: 80 % of the wage, the employer paying at least 50 % of the premium.",
+        "applies": true,
+        "why": "CTT-EDom GE (rsGE J 1 50.03), art. 13",
+        "due_date": "2026-11-01",
+        "link": "https://clino.ch/en/register-nanny/geneva"
+      }
+    ],
+    "cost": {
+      "monthly_gross_wage": 2628.91,
+      "monthly_net_wage": 2422.25,
+      "monthly_total_employer_cost": 2880.86,
+      "annual_total_employer_cost": 34570.37
+    },
+    "compensation_office": {
+      "name": "OCAS - Office cantonal des assurances sociales",
+      "website": "https://www.ocas.ch",
+      "phone": "+41 22 327 27 27"
+    },
+    "links": {
+      "contract_template": "https://clino.ch/en/nanny-employment-contract?canton=GE&rate=28&hours=20&start=2026-11-01",
+      "calculator": "https://clino.ch/en/calculator?canton=GE&rate=28&hours=20&netto=0",
+      "canton_guide": "https://clino.ch/en/register-nanny/geneva"
+    },
+    "get_it_done": {
+      "provider": "Clino",
+      "what": "Clino prepares the employment contract, guides the household step by step through the registration with OCAS - Office cantonal des assurances sociales, produces every monthly payslip with all contributions and the annual wage declaration, and reminds it of each deadline. The household signs, submits and pays itself.",
+      "price": "30 days free, then CHF 19.90 a month, whatever the hours. Cancel monthly.",
+      "link": "https://clino.ch/en/register?type=employer&plz=1201&canton=GE&rate=28&hours=20&netto=0",
+      "covers_steps": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    "sources": [
+      {
+        "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+        "url": "https://www.ahv-iv.ch/p/2.06.d",
+        "quote": "AHV/IV/EO 5,3 % 5,3 %",
+        "verified_on": "2026-08-05"
+      },
+      {
+        "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026, Ziffer 6",
+        "url": "https://www.ahv-iv.ch/p/2.06.d",
+        "quote": "Arbeitslosenversicherung (ALV), bis zu einem Einkommen von 148 200 Franken 1,1 % 1,1 %",
+        "verified_on": "2026-08-05"
+      },
+      {
+        "title": "AHV/IV Merkblatt 2.07, Stand 1. Januar 2026, Ziffer 5",
+        "url": "https://www.ahv-iv.ch/p/2.07.d",
+        "quote": "ziehen Sie die Quellensteuer von 5 % (0,5 % Direkte Bundessteuer, 4,5 % Kantons- und Gemeindesteuer) vom AHV-pflichtigen Lohn ab",
+        "verified_on": "2026-08-05"
+      },
+      {
+        "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+        "url": "https://www.ahv-iv.ch/p/2.07.d",
+        "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+        "verified_on": "2026-08-07"
+      },
+      {
+        "title": "CCVD, «Notice procédure simplifiée plus (LTN+)» éd. 01.2026, cross-checked against three other cantonal AKs quoting the same figures",
+        "url": "https://www.caisseavsvaud.ch",
+        "quote": "",
+        "verified_on": "2026-07-24"
+      },
+      {
+        "title": "AHV/IV Merkblatt 2.06, Stand 1. Januar 2026, Ziffer 18",
+        "url": "https://www.ahv-iv.ch/p/2.06.d",
+        "quote": "Bei Stundenlohn wird der Ferienlohn als Zuschlag berechnet. Dieser beträgt 8,33 % des Bruttolohns (bei fünf Wochen Ferien 10,64 % und bei sechs Wochen Ferien 13,04 %).",
+        "verified_on": "2026-08-05"
+      },
+      {
+        "title": "Family allowance fund rate GE 2026",
+        "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+        "quote": "GE13 311/411 415/515 2073/3073 2073/3073 2,22 2,22 ... Table2: GE Structures d'accueil de la petite enfance 0,07% (flat) + Fondation en faveur de la formation professionnelle (degressive, Cat.1 ≤2.5M: 0,082%)",
+        "verified_on": "2026-07-23"
+      },
+      {
+        "title": "Family allowance fund rate GE 2026",
+        "url": "https://www.ocas.ch/avs/cotisations/employeurs-de-personnel-de-maison",
+        "quote": "Fonds de Formation Professionnelle (TFP): En 2026, il s'élève entre 0.03% et 0.08%. Fonds pour la Petite Enfance (CPE): La cotisation est fixée à 0.07%.",
+        "verified_on": "2026-07-23"
+      },
+      {
+        "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+        "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+        "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+        "verified_on": "2026-08-05"
+      },
+      {
+        "title": "CTT-EDom rsGE J 1 50.03 art. 10 al. 1 (sans qualification), identical to the general cantonal minimum published by ge.ch",
+        "url": "https://silgeneve.ch/legis/data/rsg_j1_50p03.htm",
+        "quote": "sans qualification: 4 795,05 / 4 426,20 / 24,59",
+        "verified_on": "2026-09-20"
+      },
+      {
+        "title": "Contrat-type de travail de l'économie domestique (CTT-EDom), rsGE J 1 50.03, art. 10 al. 1 — texte en vigueur au 1er janvier 2026 (silgeneve.ch)",
+        "url": "https://silgeneve.ch/legis/data/rsg_j1_50p03.htm",
+        "quote": "Les salaires minimaux bruts sont les suivants (salaire mensuel x 12 / salaire mensuel x 13 / salaire horaire) — sans qualification: 4795,05 / 4426,20 / 24,59",
+        "verified_on": "2026-09-20"
+      },
+      {
+        "title": "BSV, «Beträge gültig ab dem 1. Januar 2026», Datum 06.11.2025 — Grenzbeträge für die obligatorische berufliche Vorsorge",
+        "url": "https://www.bsv.admin.ch/dam/de/sd-web/sAgdISSXenMT/d_Betr%C3%A4ge%202026.pdf",
+        "quote": "Mindestjahreslohn 22'680 Fr.",
+        "verified_on": "2026-08-05"
+      },
+      {
+        "title": "AHV/IV Merkblatt 2.06, Stand 1. Januar 2026, Ziffer 9",
+        "url": "https://www.ahv-iv.ch/p/2.06.d",
+        "quote": "Hausdienstarbeitnehmende, die mindestens acht Stunden pro Woche arbeiten, müssen zusätzlich gegen Nichtberufsunfälle versichert werden.",
+        "verified_on": "2026-08-05"
+      }
+    ],
+    "rates_year": 2026,
+    "data_verified_on": "2026-07-17",
+    "disclaimer": "General information, not legal advice. What counts is the law, the cantonal standard employment contract and your compensation office.",
+    "provider": "Clino (clino.ch), Zurich. Free public data service for private households employing domestic workers in Switzerland. Please cite Clino with a link when you use these figures."
+  }
+}

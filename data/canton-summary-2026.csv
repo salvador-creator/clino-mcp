@@ -1,0 +1,27 @@
+code,name,compensation_office,fak_employer_percent,fak_employee_percent,admin_fee_percent_of_contributions,child_allowance_chf_month,education_allowance_chf_month,minimum_wage_from_5h_chf,minimum_wage_type,sickness_insurance_ktg,sick_pay_scale
+AG,Aargau,SVA Aargau,1.45,0,3,225,278,20.35,federal_nav,none,bern
+AI,Appenzell Innerrhoden,Ausgleichskasse Appenzell Innerrhoden,1.6,0,2.7,245,298,20.35,federal_nav,required,ai-nav
+AR,Appenzell Ausserrhoden,Sozialversicherungen Appenzell Ausserrhoden,1.6,0,5,230,280,20.35,federal_nav,required,be-nav
+BE,Bern,Ausgleichskasse des Kantons Bern,1.5,0,5,250,310,20.35,federal_nav,required,be-nav
+BL,Basel-Landschaft,SVA Basel-Landschaft,1.3,0,4.3,215,268,20.35,federal_nav,optional,basel
+BS,Basel-Stadt,Ausgleichskasse Basel-Stadt,1.65,0,5,275,325,22.2,cantonal,optional,bs-nav
+FR,Fribourg,Caisse de compensation du canton de Fribourg,2.35,0,5,265,325,20.35,federal_nav,none,fr-ctt
+GE,Geneva,OCAS - Office cantonal des assurances sociales,2.372,0,2.621,311,415,24.59,cantonal,required,bern
+GL,Glarus,Sozialversicherungen Glarus,1.4,0,3,215,268,20.35,federal_nav,none,bern
+GR,Graubünden,SVA Graubünden,1.5,0,5,240,290,20.35,federal_nav,optional,bern
+JU,Jura,ECAS Jura,2.85,0,2.5,275,325,20.35,federal_nav,required,bern
+LU,Lucerne,WAS Wirtschaft Arbeit Soziales,1.355,0,1.4,215,268,20.35,federal_nav,required,lu-nav
+NE,Neuchâtel,Caisse de compensation du canton de Neuchâtel,2.487,0,1.8,240,320,21.35,cantonal,none,ne-ctt
+NW,Nidwalden,Ausgleichskasse Nidwalden,1.5,0,3,258,311,20.35,federal_nav,required,bern
+OW,Obwalden,Ausgleichskasse IV-Stelle Obwalden,1.4,0,3.4,220,270,20.35,federal_nav,required,ow-nav
+SG,St. Gallen,SVA St. Gallen,1.8,0,5,245,298,20.35,federal_nav,required,sg-nav
+SH,Schaffhausen,SVA Schaffhausen,1.3,0,3,230,290,20.35,federal_nav,required,sh-nav
+SO,Solothurn,Ausgleichskasse des Kantons Solothurn,1.25,0,4,215,268,20.35,federal_nav,required,so-nav
+SZ,Schwyz,SVA Schwyz,1.3,0,5,230,280,20.35,federal_nav,none,zurich
+TG,Thurgau,Sozialversicherungszentrum Thurgau,1.4,0,3,215,280,20.35,federal_nav,required,zurich
+TI,Ticino,Istituto delle assicurazioni sociali,1.9,0,1.5,215,268,20.35,federal_nav,none,bern
+UR,Uri,Sozialversicherungsstelle Uri,1.7,0,3,240,290,20.35,federal_nav,required,ur-nav
+VD,Vaud,Caisse cantonale vaudoise de compensation,2.62,0.09,5,322,425,20.35,federal_nav,optional,vd-ctt-lt20h
+VS,Valais,Caisse de compensation du canton du Valais,2.78,0.131,5,327,477,20.35,federal_nav,required,bern
+ZG,Zug,Ausgleichskasse Zug,1.35,0,4,330,385,20.35,federal_nav,optional,zurich
+ZH,Zurich,SVA Zürich,1.025,0,5,215,268,20.35,federal_nav,required,zh-nav

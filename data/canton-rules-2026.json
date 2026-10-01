@@ -1,0 +1,2749 @@
+{
+  "rates_year": 2026,
+  "data_verified_on": "2026-07-17",
+  "license": "CC BY 4.0, attribution: Clino (clino.ch)",
+  "cantons": [
+    {
+      "canton": {
+        "code": "AG",
+        "name": "Aargau"
+      },
+      "compensation_office": {
+        "name": "SVA Aargau",
+        "website": "https://www.sva-aargau.ch",
+        "phone": "+41 62 836 81 81",
+        "email": "info@sva-ag.ch",
+        "contact_form": null,
+        "address": "Bahnhofplatz 3C, 5001 Aarau",
+        "e_portal": "connect"
+      },
+      "registration": {
+        "how": "With the compensation office's online form on sva-aargau.ch. The connect portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.sva-aargau.ch/hd",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (SVA Aargau). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.45,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 3,
+        "admin_fee_of_gross_wage_approx": 0.318,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 225,
+        "education_chf_per_month": 278,
+        "birth_chf": null,
+        "explanation": "Child allowance: CHF 225 per child a month. Training allowance: CHF 278 a month. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Aargau. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week with the same household."
+      },
+      "sick_pay": {
+        "first_service_year_days": 21,
+        "scale": "bern",
+        "legal_basis": "NAV Hauspersonal AG (SAR 963.375), § 12 Abs. 1",
+        "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/963.375"
+      },
+      "sickness_insurance_ktg": {
+        "status": "none",
+        "percent_of_wage": null,
+        "from_day_of_illness": null,
+        "max_benefit_days": null,
+        "employer_premium_share_min": null,
+        "exemptions": [],
+        "legal_basis": "NAV Hauspersonal AG (SAR 963.375), §§ 12–13"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. SVA Aargau settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Aargau, up to CHF 25'000 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate AG 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "AG 225 278 – – 1,45 1,45 ... No Table 2 entry for AG.",
+          "verified_on": "2026-08-12"
+        },
+        {
+          "title": "Admin fee, compensation office AG",
+          "url": "https://www.sva-aargau.ch/arbeitgebende/lohn-und-beitrage/beitrage-und-verwaltungskosten",
+          "quote": "Die Berechnung der Verwaltungskostenbeiträge erfolgt auf der Basis der jährlich abgerechneten AHV/IV/EO-Beiträge. — Lohnsumme / VK-Beitragssatz: 0 bis 50'000 = 3.00%; 50'001 bis 250'000 = 2.40%; 250'001 bis 500'000 = 1.50%; 500'001 bis 800'000 = 1.20%; 800'001 bis 1'000'000 = 1.00%; 1'000'001 bis 2'000'000 = 0.85%; 2'000'001 bis 3'000'000 = 0.75%; 3'000'001 bis 5'000'000 = 0.70%; 5'000'001 bis 6'…"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "AI",
+        "name": "Appenzell Innerrhoden"
+      },
+      "compensation_office": {
+        "name": "Ausgleichskasse Appenzell Innerrhoden",
+        "website": "https://www.akai.ch",
+        "phone": "+41 71 788 18 30",
+        "email": "info@akai.ch",
+        "contact_form": null,
+        "address": "Poststrasse 9, 9050 Appenzell",
+        "e_portal": "connect"
+      },
+      "registration": {
+        "how": "With the federal online form 318.147. On the last page, choose «Ausgleichskasse Appenzell Innerrhoden» as the recipient.",
+        "form_url": "https://finfo.zas.admin.ch/ahv/jsp/front.jsp?app=AHV-IV&form=318_147_online_1&lang=de",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (Ausgleichskasse Appenzell Innerrhoden). It is optional and applies up to CHF 22'680 of annual wage per person.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.6,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 2.7,
+        "admin_fee_of_gross_wage_approx": 0.2862,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 245,
+        "education_chf_per_month": 298,
+        "birth_chf": null,
+        "explanation": "Child allowance: CHF 245 per child a month. Training allowance: CHF 298 a month. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Appenzell Innerrhoden. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. The Appenzell Innerrhoden NAV takes over these rates with no hours threshold, so they apply from the first hour unless the contract says otherwise in writing."
+      },
+      "sick_pay": {
+        "first_service_year_days": 30,
+        "scale": "ai-nav",
+        "legal_basis": "Standeskommissionsbeschluss NAV HW AI (GS 821.002), Art. 17 Abs. 1",
+        "url": "https://ai.clex.ch/app/de/texts_of_law/821.002"
+      },
+      "sickness_insurance_ktg": {
+        "status": "required",
+        "percent_of_wage": 80,
+        "from_day_of_illness": 3,
+        "max_benefit_days": 720,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [
+          "No duty up to 8 hours a week.",
+          "The parties may agree otherwise in writing."
+        ],
+        "legal_basis": "NAV HW AI (GS 821.002), Art. 19"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. Ausgleichskasse Appenzell Innerrhoden settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Appenzell Innerrhoden, up to CHF 18'000 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate AI 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "AI 245 298 – – 1,6 1,6. No Table 2 entry for AI.",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Family allowance fund rate AI 2026",
+          "url": "https://www.akai.ch/formulare/ahv-beitraege",
+          "quote": "Familienzulagen Kanton Appenzell Innerrhoden Arbeitgeberbeitrag 1.60 % 1.80 % (Kennzahlen 2026 und 2025 — dropped from 1.80% in 2025)",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Admin fee, compensation office AI",
+          "url": "https://www.sva.gr.ch/files/sva/dienstleistungen/01_ahv/mb_SVA_AK_VK-Beitraege_d.pdf",
+          "quote": "Der Höchstsatz beträgt dabei maximal 5% der massgebenden Beitragssumme.",
+          "verified_on": "2026-08-06"
+        },
+        {
+          "title": "Admin fee, compensation office AI",
+          "url": "https://www.sva.gr.ch/files/sva/dienstleistungen/01_ahv/mb_SVA_AK_VK-Beitraege_d.pdf",
+          "quote": "Die Verwaltungskostenbeiträge der Arbeitgebenden an die Ausgleichskasse des Kantons Graubünden werden nach Massgabe der beitragspflichtigen jährlichen Lohnsumme in Prozenten der Beitragssumme gemessen.",
+          "verified_on": "2026-08-06"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "AR",
+        "name": "Appenzell Ausserrhoden"
+      },
+      "compensation_office": {
+        "name": "Sozialversicherungen Appenzell Ausserrhoden",
+        "website": "https://www.sovar.ch",
+        "phone": "+41 71 354 51 51",
+        "email": "info@sovar.ch",
+        "contact_form": null,
+        "address": "Neue Steig 15, 9100 Herisau",
+        "e_portal": "connect"
+      },
+      "registration": {
+        "how": "With the federal online form 318.147. On the last page, choose «Sozialversicherungen Appenzell Ausserrhoden» as the recipient. The connect portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.ahv-iv.ch/p/318.147.d",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (Sozialversicherungen Appenzell Ausserrhoden). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.6,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 5,
+        "admin_fee_of_gross_wage_approx": 0.53,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 230,
+        "education_chf_per_month": 280,
+        "birth_chf": null,
+        "explanation": "Child allowance: CHF 230 per child a month. Training allowance: CHF 280 a month. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Appenzell Ausserrhoden. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. The Appenzell Ausserrhoden NAV takes over these rates with no hours threshold, so they apply from the first hour unless the contract says otherwise in writing."
+      },
+      "sick_pay": {
+        "first_service_year_days": 30,
+        "scale": "be-nav",
+        "legal_basis": "V. über den NAV für hauswirtschaftliche Arbeitnehmer AR (bGS 222.218), Art. 18 Abs. 1",
+        "url": "https://ar.clex.ch/app/de/texts_of_law/222.218"
+      },
+      "sickness_insurance_ktg": {
+        "status": "required",
+        "percent_of_wage": 80,
+        "from_day_of_illness": 31,
+        "max_benefit_days": 720,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [
+          "An employer who does not insure is liable for the uninsured benefits (NAV AR (bGS 222.218), Art. 24 Abs. 3)."
+        ],
+        "legal_basis": "NAV AR (bGS 222.218), Art. 24"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. Sozialversicherungen Appenzell Ausserrhoden settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Appenzell Ausserrhoden, up to CHF 25'000 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate AR 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "AR 230 280 – – 1,6 1,6 20. No Table 2 entry for AR.",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Family allowance fund rate AR 2026",
+          "url": "https://www.sovar.ch/dienstleistungen/familienzulagen-fak-flg",
+          "quote": "CHF 230 (Kinderzulage) / CHF 280 (Ausbildungszulage) — matches BSV Table 1 AR row exactly",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "BE",
+        "name": "Bern"
+      },
+      "compensation_office": {
+        "name": "Ausgleichskasse des Kantons Bern",
+        "website": "https://www.akbern.ch",
+        "phone": "+41 31 379 79 79",
+        "email": "info@akbern.ch",
+        "contact_form": null,
+        "address": "Chutzenstrasse 10, 3007 Bern",
+        "e_portal": "ePortal"
+      },
+      "registration": {
+        "how": "With the federal online form 318.147. On the last page, choose «Ausgleichskasse des Kantons Bern» as the recipient. The ePortal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.akbern.ch/Scripts/Modules/CustomView/List.aspx?idn=10758&name=Assistant&Formulaires=719",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (Ausgleichskasse des Kantons Bern). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.5,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 5,
+        "admin_fee_of_gross_wage_approx": 0.53,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 250,
+        "education_chf_per_month": 310,
+        "birth_chf": null,
+        "explanation": "Child allowance: CHF 250 per child a month. Training allowance: CHF 310 a month. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Bern. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week with the same household."
+      },
+      "sick_pay": {
+        "first_service_year_days": 30,
+        "scale": "be-nav",
+        "legal_basis": "NAV Hausdienst BE (BSG 222.153.22), Art. 31 Abs. 3",
+        "url": "https://www.belex.sites.be.ch/app/de/texts_of_law/222.153.22"
+      },
+      "sickness_insurance_ktg": {
+        "status": "required",
+        "percent_of_wage": 80,
+        "from_day_of_illness": 31,
+        "max_benefit_days": 720,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [
+          "Only for contracts agreed for more than 3 months or open-ended.",
+          "An employer who does not insure is liable for the uninsured benefits (NAV Hausdienst BE (BSG 222.153.22), Art. 36 Abs. 3)."
+        ],
+        "legal_basis": "NAV Hausdienst BE (BSG 222.153.22), Art. 35 Abs. 3 lit. b und Art. 36"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. Ausgleichskasse des Kantons Bern settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Bern, up to CHF 16'000 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training. For a nanny or au pair, a flat half of the net wage counts, because housekeeping is not deductible.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate BE 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "BE 250 310 1,5 1,5 ... No Table 2 entry for BE (Table 2 lists only ZH, LU, FR, SO, SH, TI, VD, VS, NE, GE, JU).",
+          "verified_on": "2026-08-12"
+        },
+        {
+          "title": "Admin fee, compensation office BE",
+          "url": "https://www.akbern.ch/Htdocs/Files/v/8fd4c74b5ce0b01cf91b96cc2166a002de86dd15cbf16a3ca9dd2637c1f2bb8b.pdf/doc_ag_tarife_ansatze_grenzbetrage_d.pdf?download=1",
+          "quote": "Verwaltungskostenbeiträge auf AHV/IV/EO-Beiträgen (seit 2017) — Beitragssumme / Prozentsatz: Bis CHF 5'000.00 = 5.0 %; CHF 5'001.00 – CHF 15'000.00 = 3.0 %; CHF 15'001.00 – CHF 65'000.00 = 1.7 %; CHF 65'001.00 – CHF 300'000.00 = 0.8 %; Ab CHF 301'000.00 = 0.6 %",
+          "verified_on": "2026-08-06"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "BL",
+        "name": "Basel-Landschaft"
+      },
+      "compensation_office": {
+        "name": "SVA Basel-Landschaft",
+        "website": "https://www.sva-bl.ch",
+        "phone": "+41 61 425 25 25",
+        "email": "info@sva-bl.ch",
+        "contact_form": null,
+        "address": "Hauptstrasse 109, 4102 Binningen",
+        "e_portal": "connect"
+      },
+      "registration": {
+        "how": "With the compensation office's PDF form from sva-bl.ch: fill it in, sign it and send it by post. The connect portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.sva-bl.ch/fileadmin/user_upload/formulare_merkblaetter/AK/ER/ER_Anmeldung_Hausdienst_private_Arbeitgeber.pdf",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (SVA Basel-Landschaft). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.3,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 4.3,
+        "admin_fee_of_gross_wage_approx": 0.4558,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 215,
+        "education_chf_per_month": 268,
+        "birth_chf": null,
+        "explanation": "Child allowance: CHF 215 per child a month. Training allowance: CHF 268 a month. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Basel-Landschaft. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week with the same household."
+      },
+      "sick_pay": {
+        "first_service_year_days": 21,
+        "scale": "basel",
+        "legal_basis": "V. über den NAV für Hauspersonal BL (SGS 212.34), § 18 Abs. 1",
+        "url": "https://bl.clex.ch/app/de/texts_of_law/212.34"
+      },
+      "sickness_insurance_ktg": {
+        "status": "optional",
+        "percent_of_wage": 80,
+        "from_day_of_illness": null,
+        "max_benefit_days": 720,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [],
+        "legal_basis": "V. über den NAV für Hauspersonal BL (SGS 212.34), § 18 Abs. 5"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. SVA Basel-Landschaft settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Basel-Landschaft, up to CHF 10'000 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training. If the nanny also keeps house, only part of her wage counts, as a rule half.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate BL 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "BL 215 268 – – 1,3 1,3 ... No Table 2 entry for BL.",
+          "verified_on": "2026-08-12"
+        },
+        {
+          "title": "Admin fee, compensation office BL",
+          "url": "https://www.sva-bl.ch",
+          "quote": "condensed from workflow journal wf_bbcc6bd8-aa6; tiered schedule, bottom bracket (Clino's range) = 4.3%"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "BS",
+        "name": "Basel-Stadt"
+      },
+      "compensation_office": {
+        "name": "Ausgleichskasse Basel-Stadt",
+        "website": "https://www.ak-bs.ch",
+        "phone": "+41 61 685 22 22",
+        "email": "info@ak-bs.ch",
+        "contact_form": null,
+        "address": "Wettsteinplatz 1, 4001 Basel",
+        "e_portal": null
+      },
+      "registration": {
+        "how": "With the compensation office's online form on ak-bs.ch. There, choose «Abrechnung mit Steuerabzug - vereinfachtes Verfahren».",
+        "form_url": "https://ak-bs.ch/ubersicht/beitrage-an-die-ahv-iv-eo/haushaltshilfen/",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (Ausgleichskasse Basel-Stadt). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.65,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 5,
+        "admin_fee_of_gross_wage_approx": 0.53,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 275,
+        "education_chf_per_month": 325,
+        "birth_chf": null,
+        "explanation": "Child allowance: CHF 275 per child a month. Training allowance: CHF 325 a month. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 22.2,
+        "floor_type": "cantonal",
+        "explanation": "The canton has a cantonal minimum wage of CHF 22.20 an hour. It applies from the first hour, even under 5 hours a week."
+      },
+      "sick_pay": {
+        "first_service_year_days": 30,
+        "scale": "bs-nav",
+        "legal_basis": "NAV Haushalt BS (SG 215.700), § 39 Abs. 1",
+        "url": "https://www.gesetzessammlung.bs.ch/app/de/texts_of_law/215.700"
+      },
+      "sickness_insurance_ktg": {
+        "status": "optional",
+        "percent_of_wage": 80,
+        "from_day_of_illness": null,
+        "max_benefit_days": 720,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [],
+        "legal_basis": "NAV Haushalt BS (SG 215.700), § 44"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. Ausgleichskasse Basel-Stadt settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Basel-Stadt, up to CHF 26'000 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate BS 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "BS 275 325 – – 1,65 1,65. No Table 2 entry for BS.",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Family allowance fund rate BS 2026",
+          "url": "https://ak-bs.ch/media/apxhw2bd/ans%C3%A4tze-und-grenzbetr%C3%A4ge-ab-2025.pdf",
+          "quote": "Beitragssätze der Familienausgleichskasse Basel-Stadt ... Arbeitgebende 1.65 AHV-pflichtige Bruttojahreslohnsumme Teil-Lastenausgleich im Kanton Basel-Stadt seit 1.1.2020",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Admin fee, compensation office BS",
+          "url": "https://ak-bs.ch",
+          "quote": "condensed from workflow journal wf_bbcc6bd8-aa6; flat 5.0% below CHF 1M payroll, confirmed via AK Basel-Stadt's own household-employer worked example"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "Kanton Basel-Stadt — Mindestlohn",
+          "url": "https://www.bs.ch/wsu/awa/arbeitsbeziehungen/loehne/mindestlohn",
+          "quote": "",
+          "verified_on": "2026-06-04"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "FR",
+        "name": "Fribourg"
+      },
+      "compensation_office": {
+        "name": "Caisse de compensation du canton de Fribourg",
+        "website": "https://www.ecasfr.ch",
+        "phone": "+41 26 426 70 00",
+        "email": "avs@ecasfr.ch",
+        "contact_form": null,
+        "address": "Impasse de la Colline 1, 1762 Givisiez",
+        "e_portal": "AVSeasy"
+      },
+      "registration": {
+        "how": "With the federal online form 318.147. On the last page, choose «Caisse de compensation du canton de Fribourg» as the recipient. The AVSeasy portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.ahv-iv.ch/p/318.147.f",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (Caisse de compensation du canton de Fribourg). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 2.35,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 5,
+        "admin_fee_of_gross_wage_approx": 0.53,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 265,
+        "education_chf_per_month": 325,
+        "birth_chf": 1500,
+        "explanation": "Child allowance: CHF 265 per child a month. Training allowance: CHF 325 a month. Plus a one-off birth allowance of CHF 1'500. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Fribourg. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week. The Fribourg standard contract (art. 12) sets CHF 21.00 an hour unskilled, unless the contract says otherwise in writing."
+      },
+      "sick_pay": {
+        "first_service_year_days": 21,
+        "scale": "fr-ctt",
+        "legal_basis": "Ordonnance CTT service de maison FR (RSF 222.5.91), art. 14 al. 1",
+        "url": "https://bdlf.fr.ch/app/fr/texts_of_law/222.5.91"
+      },
+      "sickness_insurance_ktg": {
+        "status": "none",
+        "percent_of_wage": null,
+        "from_day_of_illness": null,
+        "max_benefit_days": null,
+        "employer_premium_share_min": null,
+        "exemptions": [],
+        "legal_basis": "CTT service de maison FR (RSF 222.5.91), art. 14 et 17"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. Caisse de compensation du canton de Fribourg settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Fribourg, up to CHF 12'000 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate FR 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "FR9 265/285 325/345 1500 1500 2,27 2,27 ... Table2: FR Fonds en faveur de la formation professionnelle 0,04% + Structures d'accueil extrafamilial de jour 0,04% — no Salariés line in either row",
+          "verified_on": "2026-07-23"
+        },
+        {
+          "title": "Family allowance fund rate FR 2026",
+          "url": "https://www.ecasfr.ch/fr/Actualites/Modification-du-taux-de-cotisations-pour-allocations-familiales-cantonales-CAF.html",
+          "quote": "Dès le 01.01.2026, le taux des cotisations dues ... est fixé à 0,49% des salaires pour l'agriculture et à 2,27% des salaries pour toutes les autres branches économiques (en baisse par rapport à 2,48% en 2025).",
+          "verified_on": "2026-07-23"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "GE",
+        "name": "Geneva"
+      },
+      "compensation_office": {
+        "name": "OCAS - Office cantonal des assurances sociales",
+        "website": "https://www.ocas.ch",
+        "phone": "+41 22 327 27 27",
+        "email": "avseasy@ocas.ch",
+        "contact_form": null,
+        "address": "Rue des Gares 12, 1211 Genève 2",
+        "e_portal": "AVSeasy"
+      },
+      "registration": {
+        "how": "With the compensation office's online form on ocas.ch. The AVSeasy portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.ocas.ch/demarches-et-formulaires/questionnaire-affiliation-personnel-de-maison",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (OCAS - Office cantonal des assurances sociales). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 2.372,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 2.621,
+        "admin_fee_of_gross_wage_approx": 0.2778,
+        "geneva_maternity_amat_each_side": 0.029,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 311,
+        "education_chf_per_month": 415,
+        "birth_chf": 2073,
+        "explanation": "Child allowance: CHF 311 per child a month. Training allowance: CHF 415 a month. Plus a one-off birth allowance of CHF 2'073. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 24.59,
+        "floor_type": "cantonal",
+        "explanation": "The canton has a cantonal minimum wage of CHF 24.59 an hour. It applies from the first hour, even under 5 hours a week. With training or experience the «CTT-EDom» requires more: CHF 24.85 with an AFP or 4 years' experience, CHF 25.11 with a CFC."
+      },
+      "sick_pay": {
+        "first_service_year_days": 21,
+        "scale": "bern",
+        "legal_basis": "CTT-EDom GE (rsGE J 1 50.03), art. 13",
+        "url": "https://silgeneve.ch/legis/program/books/rsg/htm/rsg_j1_50p03.htm"
+      },
+      "sickness_insurance_ktg": {
+        "status": "required",
+        "percent_of_wage": 80,
+        "from_day_of_illness": null,
+        "max_benefit_days": 720,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [],
+        "legal_basis": "CTT-EDom GE (rsGE J 1 50.03), art. 13"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. OCAS - Office cantonal des assurances sociales settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Geneva, up to CHF 26'392 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate GE 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "GE13 311/411 415/515 2073/3073 2073/3073 2,22 2,22 ... Table2: GE Structures d'accueil de la petite enfance 0,07% (flat) + Fondation en faveur de la formation professionnelle (degressive, Cat.1 ≤2.5M: 0,082%)",
+          "verified_on": "2026-07-23"
+        },
+        {
+          "title": "Family allowance fund rate GE 2026",
+          "url": "https://www.ocas.ch/avs/cotisations/employeurs-de-personnel-de-maison",
+          "quote": "Fonds de Formation Professionnelle (TFP): En 2026, il s'élève entre 0.03% et 0.08%. Fonds pour la Petite Enfance (CPE): La cotisation est fixée à 0.07%.",
+          "verified_on": "2026-07-23"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "CTT-EDom rsGE J 1 50.03 art. 10 al. 1 (sans qualification), identical to the general cantonal minimum published by ge.ch",
+          "url": "https://silgeneve.ch/legis/data/rsg_j1_50p03.htm",
+          "quote": "sans qualification: 4 795,05 / 4 426,20 / 24,59",
+          "verified_on": "2026-09-20"
+        },
+        {
+          "title": "Contrat-type de travail de l'économie domestique (CTT-EDom), rsGE J 1 50.03, art. 10 al. 1 — texte en vigueur au 1er janvier 2026 (silgeneve.ch)",
+          "url": "https://silgeneve.ch/legis/data/rsg_j1_50p03.htm",
+          "quote": "Les salaires minimaux bruts sont les suivants (salaire mensuel x 12 / salaire mensuel x 13 / salaire horaire) — sans qualification: 4795,05 / 4426,20 / 24,59",
+          "verified_on": "2026-09-20"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "GL",
+        "name": "Glarus"
+      },
+      "compensation_office": {
+        "name": "Sozialversicherungen Glarus",
+        "website": "https://www.svgl.ch",
+        "phone": "+41 55 648 11 11",
+        "email": "info@svgl.ch",
+        "contact_form": null,
+        "address": "Burgstrasse 6, 8750 Glarus",
+        "e_portal": "AHVeasy"
+      },
+      "registration": {
+        "how": "With the federal online form 318.147. On the last page, choose «Sozialversicherungen Glarus» as the recipient. The AHVeasy portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.ahv-iv.ch/p/318.147.d",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (Sozialversicherungen Glarus). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.4,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 3,
+        "admin_fee_of_gross_wage_approx": 0.318,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 215,
+        "education_chf_per_month": 268,
+        "birth_chf": null,
+        "explanation": "Child allowance: CHF 215 per child a month. Training allowance: CHF 268 a month. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Glarus. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week with the same household."
+      },
+      "sick_pay": {
+        "first_service_year_days": 21,
+        "scale": "bern",
+        "legal_basis": "NAV Hauswirtschaft GL (GS VIII C/12/3), Art. 14 Abs. 2",
+        "url": "https://gesetze.gl.ch/app/de/texts_of_law/VIII-C.12.3"
+      },
+      "sickness_insurance_ktg": {
+        "status": "none",
+        "percent_of_wage": null,
+        "from_day_of_illness": null,
+        "max_benefit_days": null,
+        "employer_premium_share_min": null,
+        "exemptions": [],
+        "legal_basis": "NAV HW GL (GS VIII C/12/3)"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. Sozialversicherungen Glarus settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Glarus, up to CHF 25'800 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate GL 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "GL 215 268 – – 1,4 1,4 20 (trailing 20 = Nichterwerbstätige rate, not employer). No Table 2 entry for GL.",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Family allowance fund rate GL 2026",
+          "url": "https://www.svgl.ch/dienstleistungen/ahv-beitraege/lohnbeitraege",
+          "quote": "Für die Arbeitslosenversicherung je 1.10 % und für die Familienzulagen 1.4 %, wobei dieser Beitrag von den Arbeitgebenden alleine zu tragen ist.",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Admin fee, compensation office GL",
+          "url": "https://www.svgl.ch/uploads/Merkblaetter/Verwaltungskostenreglement.pdf",
+          "quote": "condensed from workflow journal wf_bbcc6bd8-aa6 (reglement erlassen 23.11.2016, still live-linked); full verbatim quote not re-captured in this file's authoring pass",
+          "verified_on": "2026-08-06"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "GR",
+        "name": "Graubünden"
+      },
+      "compensation_office": {
+        "name": "SVA Graubünden",
+        "website": "https://www.sva.gr.ch",
+        "phone": "+41 81 257 41 11",
+        "email": "info@sva.gr.ch",
+        "contact_form": null,
+        "address": "Ottostrasse 24, 7001 Chur",
+        "e_portal": "AHVeasy"
+      },
+      "registration": {
+        "how": "With the federal online form 318.147. On the last page, choose «SVA Graubünden» as the recipient. The AHVeasy portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.ahv-iv.ch/p/318.147.d",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (SVA Graubünden). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.5,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 5,
+        "admin_fee_of_gross_wage_approx": 0.53,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 240,
+        "education_chf_per_month": 290,
+        "birth_chf": null,
+        "explanation": "Child allowance: CHF 240 per child a month. Training allowance: CHF 290 a month. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Graubünden. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week with the same household."
+      },
+      "sick_pay": {
+        "first_service_year_days": 21,
+        "scale": "bern",
+        "legal_basis": "NAV hauswirtschaftliches Arbeitsverhältnis GR (BR 535.200), Art. 9",
+        "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/535.200"
+      },
+      "sickness_insurance_ktg": {
+        "status": "optional",
+        "percent_of_wage": null,
+        "from_day_of_illness": null,
+        "max_benefit_days": null,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [],
+        "legal_basis": "NAV GR (BR 535.200), Art. 18 Abs. 2"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. SVA Graubünden settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Graubünden, up to CHF 27'300 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate GR 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "GR 240 290 – – 1,5 1,5 ... No Table 2 entry for GR.",
+          "verified_on": "2026-08-12"
+        },
+        {
+          "title": "Admin fee, compensation office GR",
+          "url": "https://www.sva.gr.ch/files/sva/dienstleistungen/01_ahv/mb_SVA_AK_VK-Beitraege_d.pdf",
+          "quote": "Der Höchstsatz beträgt dabei maximal 5% der massgebenden Beitragssumme.",
+          "verified_on": "2026-08-06"
+        },
+        {
+          "title": "Admin fee, compensation office GR",
+          "url": "https://www.sva.gr.ch/files/sva/dienstleistungen/01_ahv/mb_SVA_AK_VK-Beitraege_d.pdf",
+          "quote": "Die Verwaltungskostenbeiträge der Arbeitgebenden an die Ausgleichskasse des Kantons Graubünden werden nach Massgabe der beitragspflichtigen jährlichen Lohnsumme in Prozenten der Beitragssumme gemessen.",
+          "verified_on": "2026-08-06"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "JU",
+        "name": "Jura"
+      },
+      "compensation_office": {
+        "name": "ECAS Jura",
+        "website": "https://www.ecasjura.ch",
+        "phone": "+41 32 952 11 11",
+        "email": "mail@ecasju.ch",
+        "contact_form": null,
+        "address": "Rue Bel-Air 3, 2350 Saignelégier",
+        "e_portal": "AVSeasy"
+      },
+      "registration": {
+        "how": "Register with ECAS Jura. Its website (https://www.ecasjura.ch) names the form for private households.",
+        "form_url": null,
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (ECAS Jura). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 2.85,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 2.5,
+        "admin_fee_of_gross_wage_approx": 0.265,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 275,
+        "education_chf_per_month": 325,
+        "birth_chf": 1500,
+        "explanation": "Child allowance: CHF 275 per child a month. Training allowance: CHF 325 a month. Plus a one-off birth allowance of CHF 1'500. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "From 5 hours a week the federal NAV for household work applies, at least CHF 20.35 an hour. It takes precedence over the cantonal minimum wage. Under 5 hours a week you pay at least CHF 21.40 an hour."
+      },
+      "sick_pay": {
+        "first_service_year_days": 21,
+        "scale": "bern",
+        "legal_basis": "CTT économie domestique JU (RSJU 222.153.22), art. 22 al. 2",
+        "url": "https://rsju.jura.ch/fr/viewdocument.html?idn=20040&id=34272"
+      },
+      "sickness_insurance_ktg": {
+        "status": "required",
+        "percent_of_wage": 80,
+        "from_day_of_illness": 31,
+        "max_benefit_days": 720,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [
+          "Only for contracts of at least 3 months.",
+          "The parties may agree otherwise in writing."
+        ],
+        "legal_basis": "CTT économie domestique JU (RSJU 222.153.22), art. 22 al. 2-3"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. ECAS Jura settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Jura, up to CHF 10'600 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate JU 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "JU 275 325 1500 1500 2,75 2,75 ... Table2: JU Fonds pour le soutien aux formations professionnelles — Employeurs/Arbeitgeber 0,1 %",
+          "verified_on": "2026-07-23"
+        },
+        {
+          "title": "Family allowance fund rate JU 2026",
+          "url": "https://www.jura.ch/fr/Autorites/Administration/DFNS/Fonds-pour-le-soutien-aux-formations-professionnelles-FSFP/Fonds-pour-le-soutien-aux-formations-professionnelles-FSFP.html",
+          "quote": "le taux de la contribution à 0.1% pour les années civiles 2026, 2027 et 2028 (décision du Gouvernement du 11 novembre 2025)",
+          "verified_on": "2026-07-23"
+        },
+        {
+          "title": "Admin fee, compensation office JU",
+          "url": "https://rsju.jura.ch",
+          "quote": "«Art. 13 1 Une contribution aux frais d'administration de 2,5 % des cotisations à verser à la caisse de compensation est perçue des employeurs, des personnes exerçant une activité lucrative et des personnes sans activité lucrative. 2 Les employeurs paient une contribution aux frais d'administration de 2,3 % s'ils utilisent la plate-forme informatique sécurisée de la caisse de compensation pour dé…",
+          "verified_on": "2026-08-13"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "République et Canton du Jura — salaires minimaux",
+          "url": "https://www.jura.ch/fr/Autorites/Administration/DES/Economie-et-Emploi-SEE/Conditions-de-travail/Conditions-de-travail/Salaires-minimaux.html",
+          "quote": "",
+          "verified_on": "2026-07-17"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "LU",
+        "name": "Lucerne"
+      },
+      "compensation_office": {
+        "name": "WAS Wirtschaft Arbeit Soziales",
+        "website": "https://www.was-luzern.ch",
+        "phone": "+41 41 209 00 01",
+        "email": "servicecenter-ak@was-luzern.ch",
+        "contact_form": null,
+        "address": "Langsägestrasse 13, 6010 Kriens",
+        "e_portal": "connect"
+      },
+      "registration": {
+        "how": "With the federal online form 318.147. On the last page, choose «WAS Wirtschaft Arbeit Soziales» as the recipient. The connect portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.ahv-iv.ch/p/318.147.d",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (WAS Wirtschaft Arbeit Soziales). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.355,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 1.4,
+        "admin_fee_of_gross_wage_approx": 0.1484,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 215,
+        "education_chf_per_month": 268,
+        "birth_chf": 1075,
+        "explanation": "Child allowance: CHF 215 per child a month, CHF 260 for children over 12. Training allowance: CHF 268 a month. Plus a one-off birth allowance of CHF 1'075. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Lucerne. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week with the same household. In the city of Lucerne a municipal minimum wage of CHF 22.75 an hour also applies, from the first hour. What counts is where the work is done."
+      },
+      "sick_pay": {
+        "first_service_year_days": 21,
+        "scale": "lu-nav",
+        "legal_basis": "NAV hauswirtschaftliches Arbeitsverhältnis LU (SRL Nr. 854), § 21 Abs. 1",
+        "url": "https://srl.lu.ch/app/de/texts_of_law/854"
+      },
+      "sickness_insurance_ktg": {
+        "status": "required",
+        "percent_of_wage": 80,
+        "from_day_of_illness": 31,
+        "max_benefit_days": 720,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [],
+        "legal_basis": "NAV LU (SRL Nr. 854), § 18"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. WAS Wirtschaft Arbeit Soziales settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Lucerne, up to CHF 20'200 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate LU 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "LU7 215/260 268 1075 1075 1,35 1,35 ... Table2: LU Arbeitslosenhilfsfonds / Fonds pour l'aide aux chômeurs — Arbeitgeber/Employeurs 0,005 %",
+          "verified_on": "2026-07-23"
+        },
+        {
+          "title": "Admin fee, compensation office LU",
+          "url": "https://www.was-luzern.ch/news/was-aendert-sich-ab-2026",
+          "quote": "News item dated 19. Dezember 2025, «WAS ändert sich ab 2026?», section «Beiträge der Arbeitgebenden»: «Der Verwaltungskostenbeitrag für Arbeitgebende ist nach der beitragspflichtigen Lohnsumme abgestuft: Lohnsumme bis 250 000 Franken 1,40% der Versicherungsbeiträge; bis 750 000 Franken 1,20%; bis 2 000 000 Franken 0,90%; bis 5 000 000 Franken 0,80%; bis 9 000 000 Franken 0,50%; über 9 000 000 Fra…",
+          "verified_on": "2026-09-11"
+        },
+        {
+          "title": "Admin fee, compensation office LU",
+          "url": "https://www.was-luzern.ch/lohnbeitraege",
+          "quote": "Folgende Tabelle zeigt die aktuellen Verwaltungskostenbeiträge (in % der Versicherungsbeiträge): Lohnsumme bis 250'000 -> 1.4%; bis 750'000 -> 1.2%; ... über 9'000'000 -> 0.4%",
+          "verified_on": "2026-09-11"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "NE",
+        "name": "Neuchâtel"
+      },
+      "compensation_office": {
+        "name": "Caisse de compensation du canton de Neuchâtel",
+        "website": "https://www.caisseavsne.ch",
+        "phone": "+41 32 889 65 01",
+        "email": "ccnc@ne.ch",
+        "contact_form": null,
+        "address": "Fbg de l'Hôpital 28, 2001 Neuchâtel",
+        "e_portal": "AVSeasy"
+      },
+      "registration": {
+        "how": "With the compensation office's online form on caisseavsne.ch. There is also a PDF version to send by post. The AVSeasy portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.caisseavsne.ch/fr/Affiliation/Questionnaire-d-affiliation-pour-employeur-de-personnel-de-maison/Questionnaire-d-affiliation-pour-employeur-de-personnel-de-maison.html",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (Caisse de compensation du canton de Neuchâtel). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 2.487,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 1.8,
+        "admin_fee_of_gross_wage_approx": 0.1908,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 240,
+        "education_chf_per_month": 320,
+        "birth_chf": 1200,
+        "explanation": "Child allowance: CHF 240 per child a month. Training allowance: CHF 320 a month. Plus a one-off birth allowance of CHF 1'200. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 21.35,
+        "floor_type": "cantonal",
+        "explanation": "The canton has a cantonal minimum wage of CHF 21.35 an hour. It applies from the first hour, even under 5 hours a week."
+      },
+      "sick_pay": {
+        "first_service_year_days": 30,
+        "scale": "ne-ctt",
+        "legal_basis": "Arrêté CTT service de maison et jeunes au pair NE (RSN 225.42), art. 15",
+        "url": "https://rsn.ne.ch/DATA/program/books/rsne/pdf/22542.pdf"
+      },
+      "sickness_insurance_ktg": {
+        "status": "none",
+        "percent_of_wage": null,
+        "from_day_of_illness": null,
+        "max_benefit_days": null,
+        "employer_premium_share_min": null,
+        "exemptions": [],
+        "legal_basis": "CTT service de maison NE (RSN 225.42), art. 24 à 26"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. Caisse de compensation du canton de Neuchâtel settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Neuchâtel, up to CHF 20'400 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate NE 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "NE12 240/270 320/350 1200 1200 1,8 1,8 ... Table2: NE Fonds pour l'apprentissage et le perfectionnement professionnel 0,507% + Fonds pour les structures d'accueil extrafamilial 0,18%",
+          "verified_on": "2026-07-23"
+        },
+        {
+          "title": "Family allowance fund rate NE 2026",
+          "url": "https://www.caisseavsne.ch/fr/Actualites/Assurances-sociales-ce-qui-va-changer-en-2026.html",
+          "quote": "Le Conseil d'État a adopté ... de diminuer le taux de cotisations de la Caisse d'allocations familiales ... à 1.8% dès le 1er janvier 2026 (1.9% jusqu'au 31 décembre 2025).",
+          "verified_on": "2026-07-23"
+        },
+        {
+          "title": "Family allowance fund rate NE 2026",
+          "url": "https://fer-ne.ch/caisses-dallocations-familiales/caisses-dallocations-familiales-cotisations/",
+          "quote": "Le taux fixé par le Conseil d'Etat s'élève à 0.507%. ... Depuis l'année 2016, le taux de contribution s'élève à 0.18%.",
+          "verified_on": "2026-07-23"
+        },
+        {
+          "title": "Admin fee, compensation office NE",
+          "url": "https://www.caisseavsne.ch",
+          "quote": "condensed from workflow journal wf_bbcc6bd8-aa6; flat 1.8%, not tiered",
+          "verified_on": "2026-08-06"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "République et Canton de Neuchâtel — conditions salariales",
+          "url": "https://www.ne.ch/themes/economie-et-emploi/conditions-de-travail/conditions-salariales",
+          "quote": "",
+          "verified_on": "2026-07-17"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "NW",
+        "name": "Nidwalden"
+      },
+      "compensation_office": {
+        "name": "Ausgleichskasse Nidwalden",
+        "website": "https://www.aknw.ch",
+        "phone": "+41 41 618 51 00",
+        "email": "info@aknw.ch",
+        "contact_form": null,
+        "address": "Stansstaderstrasse 88, 6371 Stans",
+        "e_portal": "AHVeasy"
+      },
+      "registration": {
+        "how": "With the federal online form 318.147. On the last page, choose «Ausgleichskasse Nidwalden» as the recipient. The AHVeasy portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.ahv-iv.ch/p/318.147.d",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (Ausgleichskasse Nidwalden). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.5,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 3,
+        "admin_fee_of_gross_wage_approx": 0.318,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 258,
+        "education_chf_per_month": 311,
+        "birth_chf": null,
+        "explanation": "Child allowance: CHF 258 per child a month. Training allowance: CHF 311 a month. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Nidwalden. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week with the same household."
+      },
+      "sick_pay": {
+        "first_service_year_days": 21,
+        "scale": "bern",
+        "legal_basis": "NAV Hauswirtschaft NW (NG 223.1), § 16 Abs. 1",
+        "url": "https://gesetze.nw.ch/app/de/texts_of_law/223.1"
+      },
+      "sickness_insurance_ktg": {
+        "status": "required",
+        "percent_of_wage": 80,
+        "from_day_of_illness": 31,
+        "max_benefit_days": 720,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [],
+        "legal_basis": "NAV Hauswirtschaft NW (223.1), § 17"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. Ausgleichskasse Nidwalden settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Nidwalden, up to CHF 8'400 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate NW 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "NW 258 311 – – 1,5 1,5. No Table 2 entry for NW.",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Family allowance fund rate NW 2026",
+          "url": "https://www.aknw.ch/dienstleistungen/ahv-beitraege/lohnbeitraege",
+          "quote": "Familienzulagen 1.5 %, wobei dieser Beitrag von den Arbeitgebenden alleine zu tragen ist.",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "OW",
+        "name": "Obwalden"
+      },
+      "compensation_office": {
+        "name": "Ausgleichskasse IV-Stelle Obwalden",
+        "website": "https://www.akow.ch",
+        "phone": "+41 41 666 27 50",
+        "email": "info@akow.ch",
+        "contact_form": null,
+        "address": "Brünigstrasse 144, 6060 Sarnen",
+        "e_portal": "AHVeasy"
+      },
+      "registration": {
+        "how": "With the federal online form 318.147. On the last page, choose «Ausgleichskasse IV-Stelle Obwalden» as the recipient. The AHVeasy portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.ahv-iv.ch/p/318.147.d",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (Ausgleichskasse IV-Stelle Obwalden). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.4,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 3.4,
+        "admin_fee_of_gross_wage_approx": 0.3604,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 220,
+        "education_chf_per_month": 270,
+        "birth_chf": null,
+        "explanation": "Child allowance: CHF 220 per child a month. Training allowance: CHF 270 a month. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Obwalden. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week with the same household."
+      },
+      "sick_pay": {
+        "first_service_year_days": 30,
+        "scale": "ow-nav",
+        "legal_basis": "NAV hauswirtschaftliche Arbeitnehmer OW (GDB 844.1), Art. 20",
+        "url": "http://gdb.ow.ch/app/de/texts_of_law/844.1"
+      },
+      "sickness_insurance_ktg": {
+        "status": "required",
+        "percent_of_wage": 80,
+        "from_day_of_illness": 31,
+        "max_benefit_days": null,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [
+          "The instrument puts the duty to insure on the worker; the employer has to check it and carries part of the premium."
+        ],
+        "legal_basis": "NAV OW (GDB 844.1), Art. 21"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. Ausgleichskasse IV-Stelle Obwalden settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Obwalden, up to CHF 10'000 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate OW 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "OW 220 270 – – 1,4 1,4. No Table 2 entry for OW.",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Family allowance fund rate OW 2026",
+          "url": "https://www.akow.ch/uploads/PDF-Formulare-Merkblaetter/FAK/Arten-und-Ansaetze-der-Familienzulagen_2026.pdf",
+          "quote": "OW 220 270 – – 1,4 1,4 (AK Obwalden mirrors the identical BSV table as its own official 2026 reference)",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Admin fee, compensation office OW",
+          "url": "https://www.akow.ch/rechner/berechnung-hausangestellte",
+          "quote": "Verwaltungskosten in % des AHV/IV/EO-Beitrages | 3.40 | Basis 20'000 wage -> 2'120.00 | CHF 72.10. Run 2026-08-07 with Lohn CHF 20'000 brutto, 'Vereinfachte Abrechnung mit Steuerabzug inkl. Unfallversicherung'.",
+          "verified_on": "2026-08-07"
+        },
+        {
+          "title": "Admin fee, compensation office OW",
+          "url": "https://www.akow.ch/uploads/PDF-Formulare-Merkblaetter/AHV-Beitraege/Merkblatt-Verwaltungskosten-ab-2026.pdf",
+          "quote": "«Merkblatt: Verwaltungskostenbeiträge» — Ausgleichskasse / IV-Stelle Obwalden, Brünigstrasse 144, Postfach, 6061 Sarnen. «Verwaltungskostenbeiträge ab 2026: Die Verwaltungskostenbeiträge der Ausgleichskasse Obwalden bemessen sich in Prozenten der AHV/IV/EO-Beiträge. Die nachfolgenden Ansätze haben ihre rechtliche Grundlage im AHVG und im kantonalen Einführungsgesetz über die Alters- und Hinterlas…",
+          "verified_on": "2026-08-07"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "SG",
+        "name": "St. Gallen"
+      },
+      "compensation_office": {
+        "name": "SVA St. Gallen",
+        "website": "https://www.svasg.ch",
+        "phone": "+41 71 282 66 33",
+        "email": null,
+        "contact_form": "https://form.svasg.ch/prod_formserver_SG_SVA/start.do?generalid=SVA_ANF_KONTA",
+        "address": "Brauerstrasse 54, 9016 St. Gallen",
+        "e_portal": "AHVeasy"
+      },
+      "registration": {
+        "how": "With the federal online form 318.147. On the last page, choose «SVA St. Gallen» as the recipient. The AHVeasy portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.ahv-iv.ch/p/318.147.d",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (SVA St. Gallen). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.8,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 5,
+        "admin_fee_of_gross_wage_approx": 0.53,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 245,
+        "education_chf_per_month": 298,
+        "birth_chf": null,
+        "explanation": "Child allowance: CHF 245 per child a month. Training allowance: CHF 298 a month. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in St. Gallen. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. The St. Gallen NAV takes over these rates with no hours threshold, so they apply from the first hour unless the contract says otherwise in writing."
+      },
+      "sick_pay": {
+        "first_service_year_days": 30,
+        "scale": "sg-nav",
+        "legal_basis": "NAV hauswirtschaftliche Arbeitnehmerinnen und Arbeitnehmer SG (sGS 513.1), Art. 11 Abs. 1",
+        "url": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/513.1"
+      },
+      "sickness_insurance_ktg": {
+        "status": "required",
+        "percent_of_wage": 80,
+        "from_day_of_illness": 31,
+        "max_benefit_days": 720,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [
+          "Only for contracts agreed for more than 1 month.",
+          "An employer who does not insure is liable for the uninsured benefits (NAV SG (sGS 513.1), Art. 20 Abs. 3)."
+        ],
+        "legal_basis": "NAV SG (sGS 513.1), Art. 20"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. SVA St. Gallen settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In St. Gallen, up to CHF 26'800 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate SG 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "SG 245 298 – – 1,8 1,6 20 ... No Table 2 entry for SG.",
+          "verified_on": "2026-08-12"
+        },
+        {
+          "title": "Admin fee, compensation office SG",
+          "url": "https://www.svasg.ch/online-schalter/pdf/form_1000.pdf",
+          "quote": "«Verwaltungskostenbeiträge», Form. 1000 01.22 — «Verwaltungskostenbeitragssätze für Arbeitgebende — Die Beitragssumme entspricht der Höhe der AHV/IV/EO-Beiträge inkl. FLG»: bis 5 000.00 = 5,00 ohne AHVeasy / 4,88 mit; ab 5 000.00 = 4,00 / 3,88; 7 500.00 = 2,75 / 2,63; 10 000.00 = 2,25 / 2,13; 25 000.00 = 2,00 / 1,88; 35 000.00 = 1,75 / 1,63; 100 000.00 = 1,25 / 1,13; 300 000.00 = 0,90 / 0,78; 1 0…"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "SH",
+        "name": "Schaffhausen"
+      },
+      "compensation_office": {
+        "name": "SVA Schaffhausen",
+        "website": "https://www.svash.ch",
+        "phone": "+41 52 632 61 11",
+        "email": "info@svash.ch",
+        "contact_form": null,
+        "address": "Oberstadt 9, 8200 Schaffhausen",
+        "e_portal": "AHVeasy"
+      },
+      "registration": {
+        "how": "With the federal online form 318.147. On the last page, choose «SVA Schaffhausen» as the recipient. The AHVeasy portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.ahv-iv.ch/p/318.147.d",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (SVA Schaffhausen). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.3,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 3,
+        "admin_fee_of_gross_wage_approx": 0.318,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 230,
+        "education_chf_per_month": 290,
+        "birth_chf": null,
+        "explanation": "Child allowance: CHF 230 per child a month. Training allowance: CHF 290 a month. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Schaffhausen. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week with the same household."
+      },
+      "sick_pay": {
+        "first_service_year_days": 30,
+        "scale": "sh-nav",
+        "legal_basis": "NAV hauswirtschaftliche Arbeitnehmende SH (SHR 221.216), § 28 Abs. 1",
+        "url": "https://rechtsbuch.sh.ch/app/de/texts_of_law/221.216"
+      },
+      "sickness_insurance_ktg": {
+        "status": "required",
+        "percent_of_wage": 80,
+        "from_day_of_illness": 31,
+        "max_benefit_days": 720,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [
+          "No duty below 50 % of a full-time job.",
+          "Only for contracts agreed for more than 3 months.",
+          "An employer who does not insure is liable for the uninsured benefits (NAV HW SH (221.216), § 31 Abs. 6)."
+        ],
+        "legal_basis": "NAV HW SH (221.216), § 31"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. SVA Schaffhausen settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Schaffhausen, up to CHF 9'400 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate SH 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "SH 230 290 – – 1,3 1,6 ... Table2: SH1 Sozialfonds / Fonds social — Arbeitgeber/Employeurs 0,08 %; Arbeitnehmer/Salariés 0,04 %; combined 0,12 % bis 148'200 Fr. Footnote 1: Je nach Vereinbarung mit der kantonalen AHV-Ausgleichskasse, erfolgt der Beitragsbezug durch die FAK oder die AHV-Ausgleichskasse.",
+          "verified_on": "2026-07-23"
+        },
+        {
+          "title": "Admin fee, compensation office SH",
+          "url": "https://svash.ch/wp-content/uploads/bei12-2026-info.pdf",
+          "quote": "Zur Deckung der Verwaltungskosten der AHV-Ausgleichskasse wird von den ihr angeschlossenen Arbeitgebern folgender Verwaltungskostenbeitrag erhoben: 3,00 Prozent von der AHV/IV/EO-Beitragssumme. // Arbeitgeber, die ihre Abrechnungen (Löhne) elektronisch via AHVeasy vornehmen, wird folgender Verwaltungskostenbeitrag erhoben: 2.40 Prozent von der AHV/IV/EO-Beitragssumme.",
+          "verified_on": "2026-08-07"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "SO",
+        "name": "Solothurn"
+      },
+      "compensation_office": {
+        "name": "Ausgleichskasse des Kantons Solothurn",
+        "website": "https://www.akso.ch",
+        "phone": "+41 32 686 22 00",
+        "email": "arg@akso.ch",
+        "contact_form": null,
+        "address": "Allmendweg 6, 4528 Zuchwil",
+        "e_portal": "connect"
+      },
+      "registration": {
+        "how": "With the compensation office's PDF form from akso.ch: fill it in, sign it and send it by post. The connect portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.akso.ch/uploads/PDF-Formulare-AKSO/AG-Beitraege/Anmeldung-Hausdienst-private-Arbeitgeber_04.26.pdf",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (Ausgleichskasse des Kantons Solothurn). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.25,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 4,
+        "admin_fee_of_gross_wage_approx": 0.424,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 215,
+        "education_chf_per_month": 268,
+        "birth_chf": null,
+        "explanation": "Child allowance: CHF 215 per child a month. Training allowance: CHF 268 a month. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Solothurn. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week with the same household."
+      },
+      "sick_pay": {
+        "first_service_year_days": 30,
+        "scale": "so-nav",
+        "legal_basis": "NAV Hauswirtschaft SO (BGS 821.321), § 20 Abs. 1",
+        "url": "https://bgs.so.ch/app/de/texts_of_law/821.321"
+      },
+      "sickness_insurance_ktg": {
+        "status": "required",
+        "percent_of_wage": 80,
+        "from_day_of_illness": 31,
+        "max_benefit_days": 720,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [
+          "Only for contracts agreed for more than 3 months or open-ended.",
+          "An employer who does not insure is liable for the uninsured benefits (NAV Hauswirtschaft SO (BGS 821.321), § 21 Abs. 7)."
+        ],
+        "legal_basis": "NAV Hauswirtschaft SO (BGS 821.321), § 21"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. Ausgleichskasse des Kantons Solothurn settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Solothurn, up to CHF 25'800 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate SO 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "SO 215 268 – – 1,25 1,25 15 ... Table2: SO Ergänzungsleistungen für Familien — Steuerpflichtige juristische Personen (Aktiengesellschaft, GmbH u.a.) 0,12 %",
+          "verified_on": "2026-07-23"
+        },
+        {
+          "title": "Family allowance fund rate SO 2026",
+          "url": "https://www.akso.ch/uploads/PDF-Formulare-AKSO/Allgemein/Tarife_Beitraege_Zulagen_2026_v1.pdf",
+          "quote": "FamEL-Beiträge ... Beitragspflichtig sind alle steuerpflichtigen juristischen Personen, die der Beitragspflicht an die Familienausgleichskassen unterstehen.",
+          "verified_on": "2026-07-23"
+        },
+        {
+          "title": "Admin fee, compensation office SO",
+          "url": "https://www.akso.ch/uploads/PDF-Formulare-AKSO/Allgemein/Tarife_Beitraege_Zulagen_2026_v1.pdf",
+          "quote": "«Tarife, Ansätze und Grenzbeträge (Stand 01.01.2026)» — «Verwaltungskosten auf Lohnsummen (in % der zu entrichtenden AHV/IV/EO-Lohnbeiträge) — Ab 01.01.2016»: Lohnsumme – 200'000.00 = 4.00 % / ELM-Abr. 3.70 %; 200'001–500'000 = 3.30 / 3.00; 500'001–1'000'000 = 2.80 / 2.50; 1'000'001–2'000'000 = 1.55 / 1.25; 2'000'001–4'000'000 = 1.45 / 1.15; 4'000'001–10'000'000 = 1.35 / 1.05; ab 10'000'001 = 1.2…"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "SZ",
+        "name": "Schwyz"
+      },
+      "compensation_office": {
+        "name": "SVA Schwyz",
+        "website": "https://www.sva-sz.ch",
+        "phone": "+41 41 819 04 25",
+        "email": "info@sva-sz.ch",
+        "contact_form": null,
+        "address": "Rubiswilstrasse 8, 6431 Schwyz",
+        "e_portal": "AHVeasy"
+      },
+      "registration": {
+        "how": "With the compensation office's online form on formulare.aksz.ch. The AHVeasy portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://formulare.aksz.ch/Allgemein/start.do?generalid=SZ_VAV_VAVplus_Privat",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (SVA Schwyz). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.3,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 5,
+        "admin_fee_of_gross_wage_approx": 0.53,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 230,
+        "education_chf_per_month": 280,
+        "birth_chf": 1000,
+        "explanation": "Child allowance: CHF 230 per child a month. Training allowance: CHF 280 a month. Plus a one-off birth allowance of CHF 1'000. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Schwyz. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week with the same household."
+      },
+      "sick_pay": {
+        "first_service_year_days": 21,
+        "scale": "zurich",
+        "legal_basis": "Kantonaler NAV hauswirtschaftliche Arbeitnehmer SZ (SRSZ 217.111), § 15 Abs. 2",
+        "url": "https://www.sz.ch/public/upload/assets/3701/217_111.pdf"
+      },
+      "sickness_insurance_ktg": {
+        "status": "none",
+        "percent_of_wage": null,
+        "from_day_of_illness": null,
+        "max_benefit_days": null,
+        "employer_premium_share_min": null,
+        "exemptions": [],
+        "legal_basis": "Kantonaler NAV SZ (SRSZ 217.111, vom 20. August 2019)"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. SVA Schwyz settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Schwyz, up to CHF 8'000 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training. If a household help also minds the children, a flat quarter of her net wage counts, half for an au pair.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate SZ 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "SZ 230 280 1000 - 1,3 1,3. No Table 2 entry for SZ.",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Family allowance fund rate SZ 2026",
+          "url": "https://www.sva-sz.ch/uploads/Dateien/Merkblaetter/Familienzulagen-FAK-FLG/370_100.pdf",
+          "quote": "§ 20 Abs. 1: Die Beiträge der Arbeitgebenden und der Selbstständigerwerbenden sowie die Erträge aus Anlagen dürfen nur zur Finanzierung der Familienzulagen und zur Deckung der Verwaltungskosten verwendet werden.",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Admin fee, compensation office SZ",
+          "url": "https://www.sva-sz.ch/uploads/Dateien/Merkblaetter/AHV-Beitraege/260105_Merkblatt-Verwaltungskostenbeitraege.pdf",
+          "quote": "Die Beitragssätze für Arbeitgeber basieren auf der beitragspflichtigen Lohnsumme: Bis 500'000 -> Höchstansatz der Verwaltungskostenbeiträge 5.0%; ... Ermässigung: elektronisch (AHVeasy) abrechnen ... maximal 30% ... Erhöhung: ... muss den Höchstansatz von 5% entrichten."
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "TG",
+        "name": "Thurgau"
+      },
+      "compensation_office": {
+        "name": "Sozialversicherungszentrum Thurgau",
+        "website": "https://www.svztg.ch",
+        "phone": "+41 58 225 75 75",
+        "email": "info@svztg.ch",
+        "contact_form": null,
+        "address": "St. Gallerstrasse 11, 8501 Frauenfeld",
+        "e_portal": "AHVeasy"
+      },
+      "registration": {
+        "how": "With the federal online form 318.147. On the last page, choose «Sozialversicherungszentrum Thurgau» as the recipient. The AHVeasy portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.ahv-iv.ch/p/318.147.d",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (Sozialversicherungszentrum Thurgau). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.4,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 3,
+        "admin_fee_of_gross_wage_approx": 0.318,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 215,
+        "education_chf_per_month": 280,
+        "birth_chf": null,
+        "explanation": "Child allowance: CHF 215 per child a month. Training allowance: CHF 280 a month. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Thurgau. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week with the same household."
+      },
+      "sick_pay": {
+        "first_service_year_days": 21,
+        "scale": "zurich",
+        "legal_basis": "RRV NAV hauswirtschaftliche Arbeitsverhältnisse TG (RB 221.252), § 13 Abs. 1",
+        "url": "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/221.252"
+      },
+      "sickness_insurance_ktg": {
+        "status": "required",
+        "percent_of_wage": 80,
+        "from_day_of_illness": 31,
+        "max_benefit_days": 720,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [
+          "No duty below 50 % of a full-time job."
+        ],
+        "legal_basis": "NAV TG (RRV 221.252), § 15, § 17 und § 32"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. Sozialversicherungszentrum Thurgau settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Thurgau, up to CHF 10'100 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate TG 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "TG 215 280 – – 1,4 1,4 27,2. No Table 2 entry for TG.",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Family allowance fund rate TG 2026",
+          "url": "http://www.svztg.ch/ueber-uns/news/beitragssaetze-der-familienausgleichskasse-werden-per-01-01-2026-gesenkt",
+          "quote": "Die Beiträge der Selbständigerwerbenden, Arbeitgeber sowie der Arbeitnehmerinnen und Arbeitnehmer nicht beitragspflichtiger Arbeitgeber betragen neu 1.4%",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Admin fee, compensation office TG",
+          "url": "https://www.rechtsbuch.tg.ch/api/de/texts_of_law/831.14",
+          "quote": "RB 831.14, Stand 01.01.2019 (no amendment since; in force 2026): § 1 «Der Verwaltungskostenansatz auf den AHV/IV/EO- und FL-Beiträgen beträgt unter Vorbehalt anders lautender Bestimmungen 5 %.» § 2 Abs. 1 tier table: Fr. 1 – 100'000 → 3,0 %; 100'001 – 500'000 → 2,5 %; … über 50'000'000 → 1,0 %. § 2 Abs. 3 «Die kantonale AHV-Ausgleichskasse kann den Arbeitgebern gemäss Abs. 1 eine weitere Reduktio…"
+        },
+        {
+          "title": "Admin fee, compensation office TG",
+          "url": "https://www.svztg.ch/dienstleistungen/alters-und-hinterlassenenversicherung-ahv/arbeitgebende",
+          "quote": "«Die Höhe der Verwaltungskosten basiert auf der abgerechneten Lohnsumme. Sie werden von der Summe der AHV/IV/EO-Beiträge berechnet.» — «Arbeitgebende profitieren zudem von einem reduzierten Verwaltungskostenansatz, wenn sie die Lohnmeldung über AHVeasy einreichen.» Read 2026-09-11; no percentage printed anywhere on svztg.ch."
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "TI",
+        "name": "Ticino"
+      },
+      "compensation_office": {
+        "name": "Istituto delle assicurazioni sociali",
+        "website": "https://www4.ti.ch/dss/ias",
+        "phone": "+41 91 821 91 11",
+        "email": "ias@ias.ti.ch",
+        "contact_form": null,
+        "address": "Via Ghiringhelli 15a, 6501 Bellinzona",
+        "e_portal": "AVSeasy"
+      },
+      "registration": {
+        "how": "With the compensation office's PDF form from ti.ch: fill it in, sign it and send it by post or e-mail. The form is called «modulo 111». The AVSeasy portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www4.ti.ch/fileadmin/DSS/IAS/pdf/formulari/UC/111_Affiliazione_alla_procedura_semplificata_dei_datori_di_lavoro_personale_domestico_2026.pdf",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (Istituto delle assicurazioni sociali). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.9,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 1.5,
+        "admin_fee_of_gross_wage_approx": 0.159,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 215,
+        "education_chf_per_month": 268,
+        "birth_chf": null,
+        "explanation": "Child allowance: CHF 215 per child a month. Training allowance: CHF 268 a month. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "In Ticino the cantonal standard contract for household staff applies: at least CHF 20.35 an hour from the first hour, unless the contract says otherwise in writing. Even then, the cantonal minimum wage of CHF 20.00 applies. From 5 hours a week the federal NAV at CHF 20.35 is binding anyway."
+      },
+      "sick_pay": {
+        "first_service_year_days": 21,
+        "scale": "bern",
+        "legal_basis": "Contratto normale di lavoro per il personale domestico TI (FU 41/2019, testo aggiornato al 1.1.2026), art. 22c",
+        "url": "https://www4.ti.ch/fileadmin/DFE/DE-USML/contratti/CONTRATTO_personale_domestico.pdf"
+      },
+      "sickness_insurance_ktg": {
+        "status": "none",
+        "percent_of_wage": null,
+        "from_day_of_illness": null,
+        "max_benefit_days": null,
+        "employer_premium_share_min": null,
+        "exemptions": [],
+        "legal_basis": "CNL cantonale ticinese per il personale domestico (FU 41/2019, testo aggiornato al 1.1.2026), art. 19"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. Istituto delle assicurazioni sociali settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Ticino, up to CHF 26'200 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate TI 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "TI 215 268 – – 1,6 0,85 25 ... Table2: TI Assegno integrativo 0,15% + Assegno parentale 0,15%, both employer-only",
+          "verified_on": "2026-07-23"
+        },
+        {
+          "title": "Family allowance fund rate TI 2026",
+          "url": "https://m4.ti.ch/fileadmin/DSS/IAS/pdf/informazioni_periodiche/2026_Info_periodiche_AF.pdf",
+          "quote": "datori di lavoro: 1.60% della massa salariale",
+          "verified_on": "2026-07-23"
+        },
+        {
+          "title": "Family allowance fund rate TI 2026",
+          "url": "https://www4.ti.ch/dss/ias/prestazioni-e-contributi/scheda/p/s/dettaglio/assegno-familiare-integrativo-afi-e-assegno-di-prima-infanzia-api/",
+          "quote": "L'assegno familiare integrativo (AFI) è finanziato tramite la riscossione di un contributo presso i datori di lavoro...",
+          "verified_on": "2026-07-23"
+        },
+        {
+          "title": "Admin fee, compensation office TI",
+          "url": "https://www4.ti.ch/fileadmin/DSS/IAS/pdf/formulari/UC/Aliquote_contributive_2026_procedura_semplificata.pdf",
+          "quote": "«Aliquote contributive anno 2026 (procedura semplificata)», Istituto delle assicurazioni sociali: «Spese amministrative (da calcolare sul contributo AVS/AI/IPG dovuto) 1,500 %». The basis is printed on the fee row itself, so it cannot be read off the wage sum. Read 2026-08-08.",
+          "verified_on": "2026-08-12"
+        },
+        {
+          "title": "Admin fee, compensation office TI",
+          "url": "https://www4.ti.ch/dss/ias/uc/datori-di-lavoro/procedure-di-conteggio-semplificate",
+          "quote": "December 2025 employer circular «Panoramica datore di lavoro procedure semplificate», heading «Aliquote contributive per il 2026:», carrying the identical row. The equivalent circular for the ORDINARY procedure carries it too, which is what establishes 1,500 % as TI's GENERAL rate rather than a simplified-procedure special.",
+          "verified_on": "2026-08-12"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "Repubblica e Cantone Ticino — salario minimo cantonale",
+          "url": "https://www4.ti.ch/dfe/de/usml/salariominimo/salario-minimo-cantonale",
+          "quote": "",
+          "verified_on": "2026-07-17"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "UR",
+        "name": "Uri"
+      },
+      "compensation_office": {
+        "name": "Sozialversicherungsstelle Uri",
+        "website": "https://www.svsuri.ch",
+        "phone": "+41 41 874 50 10",
+        "email": "info@svsuri.ch",
+        "contact_form": null,
+        "address": "Dätwylerstrasse 11, 6460 Altdorf",
+        "e_portal": "connect"
+      },
+      "registration": {
+        "how": "With the federal online form 318.147. On the last page, choose «Sozialversicherungsstelle Uri» as the recipient. The connect portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.ahv-iv.ch/p/318.147.d",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (Sozialversicherungsstelle Uri). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.7,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 3,
+        "admin_fee_of_gross_wage_approx": 0.318,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 240,
+        "education_chf_per_month": 290,
+        "birth_chf": 1200,
+        "explanation": "Child allowance: CHF 240 per child a month. Training allowance: CHF 290 a month. Plus a one-off birth allowance of CHF 1'200. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Uri. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week with the same household."
+      },
+      "sick_pay": {
+        "first_service_year_days": 21,
+        "scale": "ur-nav",
+        "legal_basis": "Reglement NAV hauswirtschaftliche Arbeitnehmer UR (RB 20.1311), Art. 19 Abs. 2",
+        "url": "https://rechtsbuch.ur.ch/app/de/texts_of_law/20.1311"
+      },
+      "sickness_insurance_ktg": {
+        "status": "required",
+        "percent_of_wage": 80,
+        "from_day_of_illness": 31,
+        "max_benefit_days": 720,
+        "employer_premium_share_min": null,
+        "exemptions": [
+          "Part-time and auxiliary staff are carved out (Reglement NAV UR (RB 20.1311), Art. 21 Abs. 2)."
+        ],
+        "legal_basis": "Reglement NAV UR (RB 20.1311), Art. 21"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. Sozialversicherungsstelle Uri settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Uri, up to CHF 25'800 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate UR 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "UR 240 290 1200 1200 1,7 1,3 (row not bold = unchanged vs Jan 2025). No Table 2 entry for UR.",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Admin fee, compensation office UR",
+          "url": "https://www.svsuri.ch",
+          "quote": "resolved the earlier same-day 'inconclusive' (0.75-3.00% range with no point value) — the properly rigorous pass found SVS Uri's own Reglement gives a specific applicable rate of 3.0% for Clino-sized household payrolls",
+          "verified_on": "2026-08-06"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "VD",
+        "name": "Vaud"
+      },
+      "compensation_office": {
+        "name": "Caisse cantonale vaudoise de compensation",
+        "website": "https://www.caisseavsvaud.ch",
+        "phone": "+41 21 964 12 11",
+        "email": "avs.vaud@avs22.vd.ch",
+        "contact_form": null,
+        "address": "Rue des Moulins 3, 1800 Vevey",
+        "e_portal": "votreAVSVaud"
+      },
+      "registration": {
+        "how": "With the compensation office's online form on caisseavsvaud.ch. There is also a PDF version to send by post. The votreAVSVaud portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.caisseavsvaud.ch/fr/Formulaire-de-contact/Employeurs/procedure-simplifiee-LTN/S-AFFILIER-EN-TANT-QU-EMPLOYEUR-EN-PROCEDURE-SIMPLIFIEE-LTN.html",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (Caisse cantonale vaudoise de compensation). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 2.62,
+        "family_allowance_fund_employee": 0.09,
+        "admin_fee_of_contributions": 5,
+        "admin_fee_of_gross_wage_approx": 0.53,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 322,
+        "education_chf_per_month": 425,
+        "birth_chf": 1617,
+        "explanation": "Child allowance: CHF 322 per child a month. Training allowance: CHF 425 a month. Plus a one-off birth allowance of CHF 1'617. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Vaud. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week. Below that, the cantonal standard contract sets at least CHF 19.95 an hour."
+      },
+      "sick_pay": {
+        "first_service_year_days": 21,
+        "scale": "vd-ctt-lt20h",
+        "legal_basis": "ACTT-mpr VD (BLV 222.105.1), art. 21 al. 2 et 3",
+        "url": "https://www.lexfind.ch/tolv/239683/fr"
+      },
+      "sickness_insurance_ktg": {
+        "status": "optional",
+        "percent_of_wage": 80,
+        "from_day_of_illness": 3,
+        "max_benefit_days": 720,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [],
+        "legal_basis": "CTT personnel des ménages privés VD (RSV 222.105.1), art. 21 al. 6-7"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. Caisse cantonale vaudoise de compensation settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Vaud, up to CHF 15'200 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate VD 2026",
+          "url": "https://www.caisseavsvaud.ch/Htdocs/Files/v/661c9d16899610f959c82cad63b6bd7d08478217dda7b668c8bc9ef690d9cf85.pdf/Portrait/Communiques/Notice-Cotisations-paritaires--allocations-familiales-2026.pdf",
+          "quote": "Cotisations AF 2.29% / Formation professionnelle 0.09% / Accueil de jour des enfants 0.16% / Participation aux frais d'administration 0.08% / Total (à charge de l'employeur uniquement) 2.62%",
+          "verified_on": "2026-07-21"
+        },
+        {
+          "title": "Family allowance fund rate VD 2026",
+          "url": "https://www.caisseavsvaud.ch/Htdocs/Files/v/b8b6499a17dc03f367ad90ec1621d9e28df277994aa73ca0941db3caaf5b0ca0.pdf/Portrait/Communiques/Notice-personnel-de-maison-2026.pdf",
+          "quote": "A ces taux s'ajoutent des cotisations supportées par l'employeur uniquement : Allocations familiales : 2.62% / Participation aux frais d'administration : 0.53%",
+          "verified_on": "2026-07-21"
+        },
+        {
+          "title": "Employee family allowance contribution VD",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "VD Prestations complémentaires pour familles et rente-pont, Fonds pour la famille — Employeurs/Arbeitgeber 0,09% ; Salariés/Arbeitnehmer 0,09% ; Indépendants/Selbständigerwerbende 0,09% (bold = new/changed for 2026)",
+          "verified_on": "2026-07-17"
+        },
+        {
+          "title": "Admin fee, compensation office VD",
+          "url": "https://www.caisseavsvaud.ch/fr/Assurances/AVS-Cotisations/Personnel-de-maison/Personnel-de-maison.html",
+          "quote": "Table headed «Autres retenues calculées sur le salaire brut» — «Participation aux frais d'administration | Employeur 0.53% | Salarié·e - | Total 0.53%». Read 2026-08-08. The row sits above the two procedure-dependent rows (impôt à la source 5 %, assurance-accidents LTN+), so the 0.53 % is unconditional across all three procedures."
+        },
+        {
+          "title": "Admin fee, compensation office VD",
+          "url": "https://www.caisseavsvaud.ch/Htdocs/Files/v/23368969c2472c27f0c5d5e5ede29b50c474b232496219f1376e5df8f982eda8.pdf/Portrait/Communiques/Notice-procedure-simplifiee-LTN-2026.pdf",
+          "quote": "«Notice procédure simplifiée \"LTN\"», édition 01.2026, p. 2: «A ces taux s'ajoutent des cotisations dues par l'employeur uniquement : Allocations familiales : 2.62% — Participation aux frais d'administration : 0.53%» — stated as an addition to a table of gross-salary percentages. The same sentence appears in «Notice personnel de maison» éd. 01.2026 p. 2 («supportées» for «dues») and in «Notice pro…"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "Arrêté établissant un contrat-type de travail pour le personnel des ménages privés (ACTT-mpr), BLV 222.105.1, du 18.01.2006, état 01.06.2024 (modif. du 15.05.2024), art. 20 al. 1",
+          "url": "https://prestations.vd.ch/pub/blv-publication/api/actes/6c682915-61f9-495c-a4c8-550e4cc44f74/html",
+          "quote": "employé qualifié avec CFC (ou titre équivalent) Fr. 24.05/h - employé qualifié avec AFP Fr. 21.85/h - employé non qualifié avec au moins 4 ans d'expérience professionnelle dans la branche Fr. 21.85/h - employé non qualifié Fr. 19.95/h",
+          "verified_on": "2026-09-30"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "VS",
+        "name": "Valais"
+      },
+      "compensation_office": {
+        "name": "Caisse de compensation du canton du Valais",
+        "website": "https://www.avsvalais.ch",
+        "phone": "+41 27 324 91 11",
+        "email": "info@avs.vs.ch",
+        "contact_form": null,
+        "address": "Avenue Pratifori 22, Case postale 180, 1951 Sion",
+        "e_portal": null
+      },
+      "registration": {
+        "how": "With the compensation office's PDF form from avsvalais.ch: fill it in, sign it and send it by post.",
+        "form_url": "https://www.avsvalais.ch/Htdocs/Files/v/68fcf62d51e56e90a1ce17677c261992de66704226e4cd71dd0afecc23aef7bc.pdf",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (Caisse de compensation du canton du Valais). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 2.78,
+        "family_allowance_fund_employee": 0.131,
+        "admin_fee_of_contributions": 5,
+        "admin_fee_of_gross_wage_approx": 0.53,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 327,
+        "education_chf_per_month": 477,
+        "birth_chf": 2142,
+        "explanation": "Child allowance: CHF 327 per child a month. Training allowance: CHF 477 a month. Plus a one-off birth allowance of CHF 2'142. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Valais. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week with the same household."
+      },
+      "sick_pay": {
+        "first_service_year_days": 21,
+        "scale": "bern",
+        "legal_basis": "Arrêté CTT économie domestique VS (RS 221.602), art. 17",
+        "url": "https://lex.vs.ch/app/fr/texts_of_law/221.602"
+      },
+      "sickness_insurance_ktg": {
+        "status": "required",
+        "percent_of_wage": 80,
+        "from_day_of_illness": null,
+        "max_benefit_days": 720,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [
+          "The parties may agree otherwise in writing."
+        ],
+        "legal_basis": "Arrêté CTT économie domestique VS (RS 221.602), art. 17"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. Caisse de compensation du canton du Valais settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Valais, up to CHF 10'000 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate VS 2026",
+          "url": "https://www.civafvs.ch/fr/Actualites/Taux-de-cotisations-2026.html",
+          "quote": "Taux de contributions en 2026 : 2.911 % (dont 0.131 % à charge des salariés).",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Family allowance fund rate VS 2026",
+          "url": "https://www.civafvs.ch/fr/Employeur/Taux-de-cotisation/Taux-de-cotisation.html",
+          "quote": "Ces taux comprennent les frais administratifs (0.05%), le financement des fonds pour la famille et de la formation professionnelle (0.281%).",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Admin fee, compensation office VS",
+          "url": "https://www.ahvwallis.ch/Htdocs/Files/v/f749b398b57a8f802ba648254b19a21f003dd9f1570753b350e707b6b3e102b0.pdf/2026_FR_Notice-employeur1.pdf",
+          "quote": "«Notice sur les cotisations des employeurs et des salariés», Caisse de compensation du canton du Valais, «Valable dès le 01.01.2026»: «Le taux de contribution aux frais d'administration (FA) est calculé en fonction de l'importance de la masse salariale annuelle de chaque employeur (dégressif à partir d'un taux de base de 0.53%).» Same Notice, «Cotisations paritaires»: «AVS/AI/APG 5.30% 5.30% 10.6…",
+          "verified_on": "2026-09-09"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "ZG",
+        "name": "Zug"
+      },
+      "compensation_office": {
+        "name": "Ausgleichskasse Zug",
+        "website": "https://www.akzug.ch",
+        "phone": "+41 41 560 47 00",
+        "email": "info@akzug.ch",
+        "contact_form": null,
+        "address": "Baarerstrasse 11, 6302 Zug",
+        "e_portal": "AHVeasy"
+      },
+      "registration": {
+        "how": "With the federal online form 318.147. On the last page, choose «Ausgleichskasse Zug» as the recipient. The AHVeasy portal only comes in after registration, for the annual wage report.",
+        "form_url": "https://www.ahv-iv.ch/p/318.147.d",
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (Ausgleichskasse Zug). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.35,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 4,
+        "admin_fee_of_gross_wage_approx": 0.424,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 330,
+        "education_chf_per_month": 385,
+        "birth_chf": null,
+        "explanation": "Child allowance: CHF 330 per child a month. Training allowance: CHF 330 a month up to age 18, then CHF 385. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Zug. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week with the same household."
+      },
+      "sick_pay": {
+        "first_service_year_days": 21,
+        "scale": "zurich",
+        "legal_basis": "NAV Privathaushalt ZG (BGS 831.521), § 21 Abs. 1",
+        "url": "https://bgs.zg.ch/app/de/texts_of_law/831.521"
+      },
+      "sickness_insurance_ktg": {
+        "status": "optional",
+        "percent_of_wage": null,
+        "from_day_of_illness": null,
+        "max_benefit_days": null,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [],
+        "legal_basis": "NAV Privathaushalt ZG (BGS 831.521), § 21 Abs. 2"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. Ausgleichskasse Zug settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. Up to CHF 25'800 per child a year for federal tax (2026); the canton has a deduction too. Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate ZG 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "ZG8 330 330/385 – – 1,35 1,35. No Table 2 entry for ZG.",
+          "verified_on": "2026-07-24"
+        },
+        {
+          "title": "Admin fee, compensation office ZG",
+          "url": "https://www.akzug.ch/uploads/PDF-Formulare-Merkblätter/Beiträge/AKIVZug_Verwaltungskostenbeitraege.pdf",
+          "quote": "«Verfügung über die Verwaltungskostenbeiträge der Ausgleichskasse Zug», BGS 841.12, «Vom 20. Oktober 2014 (Stand 1. Januar 2022)» — «§ 2 … Arbeitgebende und Arbeitnehmende ohne beitragspflichtige Arbeitgebende schulden einen Verwaltungskostenbeitrag, der nach der beitragspflichtigen Lohnsumme wie folgt abgestuft ist: Lohnsummen | %-Anteile der Versicherungsbeiträge bei Abrechnung in Papierform | …"
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    },
+    {
+      "canton": {
+        "code": "ZH",
+        "name": "Zurich"
+      },
+      "compensation_office": {
+        "name": "SVA Zürich",
+        "website": "https://www.svazurich.ch",
+        "phone": "+41 44 448 50 00",
+        "email": "info@svazurich.ch",
+        "contact_form": null,
+        "address": "Röntgenstrasse 17, 8087 Zürich",
+        "e_portal": "AHVeasy"
+      },
+      "registration": {
+        "how": "Register with SVA Zürich. Its website (https://www.svazurich.ch) names the form for private households.",
+        "form_url": null,
+        "deadline": "Within one month of the start of work, register with the **compensation office of your canton of residence** (simplified or ordinary procedure)."
+      },
+      "simplified_procedure": {
+        "explanation": "Under the simplified procedure you settle AHV/IV/EO, unemployment insurance and a 5 % withholding tax once a year through the compensation office (SVA Zürich). It is optional and applies up to CHF 22'680 of annual wage per person. Accident insurance (UVG) is only included if you choose the plus option when you register. Otherwise you take it out yourself with an insurer.",
+        "max_annual_wage_per_employee_chf": 22680,
+        "max_total_annual_payroll_chf": 60480
+      },
+      "contributions_percent": {
+        "ahv_iv_eo_each_side": 5.3,
+        "unemployment_alv_each_side": 1.1,
+        "family_allowance_fund_employer": 1.025,
+        "family_allowance_fund_employee": 0,
+        "admin_fee_of_contributions": 5,
+        "admin_fee_of_gross_wage_approx": 0.53,
+        "geneva_maternity_amat_each_side": null,
+        "withholding_tax_simplified": 5
+      },
+      "family_allowances": {
+        "child_chf_per_month": 215,
+        "education_chf_per_month": 268,
+        "birth_chf": null,
+        "explanation": "Child allowance: CHF 215 per child a month, CHF 268 for children over 12. Training allowance: CHF 268 a month. As of 2026."
+      },
+      "minimum_wage": {
+        "floor_from_5h_per_week_chf": 20.35,
+        "floor_type": "federal_nav",
+        "explanation": "There is no cantonal minimum wage in Zurich. The minimum wage of the federal NAV for household work is binding: CHF 20.35 an hour unskilled, CHF 22.30 with 4 years' experience or an EBA, CHF 24.55 with an EFZ. It applies from 5 hours a week with the same household. The city of Zurich has voted a minimum wage of CHF 23.90. It is not in force yet. The city of Winterthur has voted a minimum wage of CHF 23.00. It is not in force yet."
+      },
+      "sick_pay": {
+        "first_service_year_days": 21,
+        "scale": "zh-nav",
+        "legal_basis": "NAV hauswirtschaftliche Arbeitnehmer ZH (LS 821.12), Art. 11 Abs. 1",
+        "url": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-821_12-1991_05_29-1991_07_01-110.html"
+      },
+      "sickness_insurance_ktg": {
+        "status": "required",
+        "percent_of_wage": 80,
+        "from_day_of_illness": 31,
+        "max_benefit_days": 720,
+        "employer_premium_share_min": 0.5,
+        "exemptions": [
+          "The parties may agree otherwise in writing.",
+          "An employer who does not insure is liable for the uninsured benefits (NAV hauswirtschaftliche Arbeitnehmer ZH (LS 821.12), Art. 13a)."
+        ],
+        "legal_basis": "NAV hauswirtschaftliche Arbeitnehmer ZH (LS 821.12), Art. 12 und Art. 26"
+      },
+      "withholding_tax": "In the simplified procedure, yes, for every employee: 5 % withholding tax, whatever the nationality or permit, Swiss nationals and C permit holders included. SVA Zürich settles it together with the contributions. In the ordinary procedure, withholding tax applies only without a C permit (for example B, L or G), at the ordinary tariff.",
+      "childcare_tax_deduction": "Yes. In Zurich, up to CHF 25'300 per child a year (cantonal and municipal tax), and up to CHF 25'800 for federal tax (2026). Condition: the child is under 14 and both parents work or are in training.",
+      "penalty_without_registration": "An employer who does not join a compensation office and settle the wages commits an offence under the AHV Act: a monetary penalty of up to 180 daily units (Art. 87 AHVG). On top come the social insurance contributions, as a rule back-dated up to 5 years.",
+      "sources": [
+        {
+          "title": "Family allowance fund rate ZH 2026",
+          "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+          "quote": "ZH6 215/268 268 – – 1,025 1,025 ... Table2: ZH Berufsbildungsfonds / Fonds en faveur de la formation professionnelle — Arbeitgeber/Employeurs 0,1 %",
+          "verified_on": "2026-07-23"
+        },
+        {
+          "title": "Admin fee, compensation office ZH",
+          "url": "https://svazurich.ch/content/dam/sva-dokumente/2000_ak/2800_vb/2800_vb1_verwaltungskostenbeitraege_ab_2026.pdf",
+          "quote": "Die SVA Zürich erhebt einen prozentualen Verwaltungskostenbeitrag auf Basis der jährlich abgerechneten AHV/IV/EO-Beiträge. ... 1 Beitragssätze für Arbeitgebende: ab 1 CHF: 5.00% (Grundtarif) / 5.00% (AHVeasy); 7'500: 4.75/4.25; ... Die oben aufgeführten Verwaltungskostenbeitragssätze gelten ab dem Beitragsjahr 2026."
+        },
+        {
+          "title": "SECO, «Informationen zum NAV Hauswirtschaft» (Stand: 1. Januar 2026), Ziffer 2.3",
+          "url": "https://www.seco.admin.ch/dam/de/sd-web/yauMAu-tmnY1/Informationen-NAV-Hauswirtschaft-SECO-2026-DE.pdf",
+          "quote": "Kat. «ungelernt» Fr. 20.35 pro Stunde",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+          "url": "https://www.ahv-iv.ch/p/2.06.d",
+          "quote": "AHV/IV/EO 5,3 % 5,3 %",
+          "verified_on": "2026-08-05"
+        },
+        {
+          "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+          "url": "https://www.ahv-iv.ch/p/2.07.d",
+          "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+          "verified_on": "2026-08-07"
+        }
+      ],
+      "rates_year": 2026,
+      "data_verified_on": "2026-07-17"
+    }
+  ]
+}

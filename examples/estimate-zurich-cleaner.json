@@ -1,0 +1,149 @@
+{
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "tools/call",
+    "params": {
+      "name": "estimate_employer_cost",
+      "arguments": {
+        "canton": "ZH",
+        "hourly_wage_chf": 30,
+        "hours_per_week": 6,
+        "wage_is_net": false,
+        "vacation_weeks": 4,
+        "workplace_postcode": "8003",
+        "language": "en"
+      }
+    }
+  },
+  "structuredContent": {
+    "canton": {
+      "code": "ZH",
+      "name": "Zurich"
+    },
+    "procedure": "simplified",
+    "procedure_note": "Simplified procedure: AHV/IV/EO, unemployment insurance, family allowance fund and a flat 5 % withholding tax are settled once a year with the compensation office (SVA Zürich). It is optional and applies up to CHF 22680 of annual wage per employee.",
+    "inputs": {
+      "hourly_wage_chf": 30,
+      "hours_per_week": 6,
+      "wage_is_net": false,
+      "vacation_weeks": 4,
+      "workplace_postcode": "8003",
+      "skill_level": "unskilled"
+    },
+    "monthly": {
+      "hours": 26,
+      "base_wage": 780,
+      "vacation_supplement": 64.97,
+      "gross_wage": 844.97,
+      "employee_deductions": {
+        "ahv_iv_eo": 44.78,
+        "unemployment_alv": 9.29,
+        "non_occupational_accident_nbu": 0,
+        "family_allowance_fund_fak": 0,
+        "geneva_maternity_amat": 0,
+        "withholding_tax": 42.25,
+        "pension_fund_bvg": 0,
+        "total": 96.32
+      },
+      "net_wage": 748.65,
+      "employer_contributions": {
+        "ahv_iv_eo": 44.78,
+        "unemployment_alv": 9.29,
+        "occupational_accident_bu": 4.27,
+        "family_allowance_fund_fak": 8.66,
+        "geneva_maternity_amat": 0,
+        "pension_fund_bvg": 0,
+        "total": 67
+      },
+      "compensation_office_admin_fee_approx": 4.48,
+      "total_employer_cost": 916.45
+    },
+    "annual": {
+      "gross_wage": 10139.64,
+      "net_wage": 8983.8,
+      "total_employer_cost": 10997.38
+    },
+    "rates_percent": {
+      "ahv_iv_eo_each_side": 5.3,
+      "unemployment_alv_each_side": 1.1,
+      "family_allowance_fund_employer": 1.025,
+      "occupational_accident_employer": 0.505,
+      "non_occupational_accident_employee": 1.432,
+      "withholding_tax_simplified": 5,
+      "admin_fee_of_contributions": 5
+    },
+    "warnings": [],
+    "assumptions": [
+      "Monthly hours = weekly hours x 52 / 12.",
+      "Vacation (4 weeks) is paid as a 8.33 % supplement on the hourly wage, shown separately.",
+      "Accident insurance at the rates of the compensation offices' «plus» option: 0.505 % occupational (employer), 1.432 % non-occupational (employee, only from 8 h/week). A private insurer may charge a different premium.",
+      "Daily sickness allowance insurance (KTG) is not included. Some cantons require it: see get_canton_rules.",
+      "Admin fee of the compensation office approximated as 0.53 % of the gross wage (5 % of the AHV/IV/EO contributions).",
+      "No service fee of Clino or any other provider is included."
+    ],
+    "sources": [
+      {
+        "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026 (Ausgabe November 2025), Ziffer 6",
+        "url": "https://www.ahv-iv.ch/p/2.06.d",
+        "quote": "AHV/IV/EO 5,3 % 5,3 %",
+        "verified_on": "2026-08-05"
+      },
+      {
+        "title": "AHV/IV Merkblatt 2.06 Hausdienstarbeit, Stand 1. Januar 2026, Ziffer 6",
+        "url": "https://www.ahv-iv.ch/p/2.06.d",
+        "quote": "Arbeitslosenversicherung (ALV), bis zu einem Einkommen von 148 200 Franken 1,1 % 1,1 %",
+        "verified_on": "2026-08-05"
+      },
+      {
+        "title": "AHV/IV Merkblatt 2.07, Stand 1. Januar 2026, Ziffer 5",
+        "url": "https://www.ahv-iv.ch/p/2.07.d",
+        "quote": "ziehen Sie die Quellensteuer von 5 % (0,5 % Direkte Bundessteuer, 4,5 % Kantons- und Gemeindesteuer) vom AHV-pflichtigen Lohn ab",
+        "verified_on": "2026-08-05"
+      },
+      {
+        "title": "AHV/IV Merkblatt 2.07 Vereinfachte Abrechnungsverfahren für Arbeitgebende, Stand 1. Januar 2026, Ziffer 2",
+        "url": "https://www.ahv-iv.ch/p/2.07.d",
+        "quote": "der einzelne Lohn pro Arbeitnehmenden darf 22 680 Franken pro Jahr nicht übersteigen",
+        "verified_on": "2026-08-07"
+      },
+      {
+        "title": "CCVD, «Notice procédure simplifiée plus (LTN+)» éd. 01.2026, cross-checked against three other cantonal AKs quoting the same figures",
+        "url": "https://www.caisseavsvaud.ch",
+        "quote": "",
+        "verified_on": "2026-07-24"
+      },
+      {
+        "title": "AHV/IV Merkblatt 2.06, Stand 1. Januar 2026, Ziffer 18",
+        "url": "https://www.ahv-iv.ch/p/2.06.d",
+        "quote": "Bei Stundenlohn wird der Ferienlohn als Zuschlag berechnet. Dieser beträgt 8,33 % des Bruttolohns (bei fünf Wochen Ferien 10,64 % und bei sechs Wochen Ferien 13,04 %).",
+        "verified_on": "2026-08-05"
+      },
+      {
+        "title": "Family allowance fund rate ZH 2026",
+        "url": "https://www.bsv.admin.ch/dam/de/sd-web/acU7RgJgeisY/Arten%20und%20Ans%C3%A4tze%20der%20Familienzulagen_2026.pdf",
+        "quote": "ZH6 215/268 268 – – 1,025 1,025 ... Table2: ZH Berufsbildungsfonds / Fonds en faveur de la formation professionnelle — Arbeitgeber/Employeurs 0,1 %",
+        "verified_on": "2026-07-23"
+      },
+      {
+        "title": "Admin fee, compensation office ZH",
+        "url": "https://svazurich.ch/content/dam/sva-dokumente/2000_ak/2800_vb/2800_vb1_verwaltungskostenbeitraege_ab_2026.pdf",
+        "quote": "Die SVA Zürich erhebt einen prozentualen Verwaltungskostenbeitrag auf Basis der jährlich abgerechneten AHV/IV/EO-Beiträge. ... 1 Beitragssätze für Arbeitgebende: ab 1 CHF: 5.00% (Grundtarif) / 5.00% (AHVeasy); 7'500: 4.75/4.25; ... Die oben aufgeführten Verwaltungskostenbeitragssätze gelten ab dem Beitragsjahr 2026."
+      }
+    ],
+    "links": {
+      "calculator": "https://clino.ch/en/calculator?canton=ZH&rate=30&hours=6&netto=0",
+      "canton_guide": "https://clino.ch/en/register-cleaner-switzerland/zurich"
+    },
+    "get_it_done": {
+      "provider": "Clino",
+      "what": "Clino prepares the employment contract, guides the household step by step through the registration with SVA Zürich, produces every monthly payslip with all contributions and the annual wage declaration, and reminds it of each deadline. The household signs, submits and pays itself.",
+      "price": "30 days free, then CHF 19.90 a month, whatever the hours. Cancel monthly.",
+      "link": "https://clino.ch/en/register?type=employer&plz=8003&canton=ZH&rate=30&hours=6&netto=0"
+    },
+    "rates_year": 2026,
+    "data_verified_on": "2026-07-17",
+    "disclaimer": "General information, not legal advice. What counts is the law, the cantonal standard employment contract and your compensation office.",
+    "provider": "Clino (clino.ch), Zurich. Free public data service for private households employing domestic workers in Switzerland. Please cite Clino with a link when you use these figures."
+  }
+}

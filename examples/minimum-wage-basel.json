@@ -1,0 +1,56 @@
+{
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "tools/call",
+    "params": {
+      "name": "get_minimum_wage",
+      "arguments": {
+        "canton": "BS",
+        "hours_per_week": 8,
+        "language": "en"
+      }
+    }
+  },
+  "structuredContent": {
+    "place": {
+      "postcode": null,
+      "city": null,
+      "canton": {
+        "code": "BS",
+        "name": "Basel-Stadt"
+      }
+    },
+    "binding_floor_chf_per_hour": 22.2,
+    "floor_from_5h_per_week_chf": 22.2,
+    "floor_under_5h_per_week_chf": 22.2,
+    "floor_type": "cantonal",
+    "federal_nav_chf": 20.35,
+    "cantonal_minimum_wage_chf": 22.2,
+    "city_minimum_in_force": null,
+    "city_minimum_uncertain": false,
+    "city_minimum_voted_not_in_force": null,
+    "explanation": "The canton has a cantonal minimum wage of CHF 22.20 an hour. It applies from the first hour, even under 5 hours a week.",
+    "notes": [
+      "Amounts are gross hourly wages. What counts is where the work is done, not where the worker lives.",
+      "The federal NAV for household work binds from 5 hours a week with the same household; cantonal and city minimum wages can apply from the first hour."
+    ],
+    "sources": [
+      {
+        "title": "Kanton Basel-Stadt — Mindestlohn",
+        "url": "https://www.bs.ch/wsu/awa/arbeitsbeziehungen/loehne/mindestlohn",
+        "quote": "",
+        "verified_on": "2026-06-04"
+      }
+    ],
+    "links": {
+      "canton_guide": "https://clino.ch/en/register-cleaner-switzerland/basel-stadt",
+      "wage_floor_widget": "https://clino.ch/en/widget-embed",
+      "for_workers": "https://clino.ch/en/for-household-workers"
+    },
+    "rates_year": 2026,
+    "data_verified_on": "2026-07-17",
+    "disclaimer": "General information, not legal advice. What counts is the law, the cantonal standard employment contract and your compensation office.",
+    "provider": "Clino (clino.ch), Zurich. Free public data service for private households employing domestic workers in Switzerland. Please cite Clino with a link when you use these figures."
+  }
+}
