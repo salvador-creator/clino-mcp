@@ -83,7 +83,7 @@ The human-readable version of the sources is at [clino.ch/en/sources](https://cl
 
 ## Privacy
 
-The server needs no account and has no access to the assistant's conversations, memory or files. The details a tool call sends (canton, postcode, wage, hours) are used only to compute the answer and are not stored. The usage log keeps the tool name, canton, language, role and the client's name, with no IP address and no free text. Full text: [clino.ch/en/privacy](https://clino.ch/en/privacy).
+The server needs no account and has no access to the assistant's conversations, memory or files. The details a tool call sends (postcode, wage, hours) are used only to compute the answer and are not stored. The usage log keeps the tool name, canton, language, role and the client's name and version, with no IP address and no free text. Links in the answers carry `utm_source=mcp`, so a sign-up through one keeps that origin. Full text: [clino.ch/en/privacy](https://clino.ch/en/privacy).
 
 ## Limits
 
