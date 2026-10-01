@@ -9,6 +9,7 @@ version: "2026.1"
 date-released: "2026-10-01"
 license: CC-BY-4.0
 url: "https://clino.ch/en/mcp"
+repository-code: "https://github.com/salvador-creator/clino-mcp"
 abstract: >-
   The contribution rates, thresholds, minimum wages, family allowances and
   canton rules that apply when a private household in Switzerland employs a
