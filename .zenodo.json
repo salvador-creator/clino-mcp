@@ -1,0 +1,37 @@
+{
+  "upload_type": "dataset",
+  "title": "Swiss household employment: official figures and canton rules 2026",
+  "creators": [
+    {
+      "name": "Clino"
+    }
+  ],
+  "description": "<p>The contribution rates, thresholds, minimum wages, family allowances and canton rules that apply when a private household in Switzerland employs a cleaner, nanny or carer, for all 26 cantons and the 2026 rates year.</p><p>Each of the 151 figures carries its official source document, URL, verbatim quote and verification date. Files: official-figures-2026 (CSV and JSON), canton-summary-2026.csv and canton-rules-2026.json.</p><p>The same data powers the free, read-only Clino MCP server at https://clino.ch/mcp (documentation: https://clino.ch/en/mcp). Always-current copies: https://clino.ch/opendata/official-figures.csv</p><p>General information, not legal advice.</p>",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "version": "2026.1",
+  "language": "eng",
+  "keywords": [
+    "Switzerland",
+    "household employment",
+    "domestic workers",
+    "social insurance",
+    "AHV",
+    "minimum wage",
+    "payroll",
+    "open data",
+    "Model Context Protocol"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://clino.ch/en/mcp",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    },
+    {
+      "identifier": "https://clino.ch/en/sources",
+      "relation": "isDerivedFrom",
+      "resource_type": "other"
+    }
+  ]
+}
