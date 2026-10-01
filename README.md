@@ -29,6 +29,7 @@ The answers come from the same calculator and canton data that run [clino.ch](ht
 | **Claude Code** | `claude mcp add --transport http clino https://clino.ch/mcp` |
 | **Cursor** | [One-click install](https://clino.ch/en/mcp#cursor) or the JSON below in `~/.cursor/mcp.json` |
 | **VS Code** | [One-click install](https://clino.ch/en/mcp#vscode) or `.vscode/mcp.json` below |
+| **Gemini CLI** | `gemini extensions install https://github.com/salvador-creator/clino-mcp` |
 | **Other clients** | Any client that speaks Streamable HTTP: URL `https://clino.ch/mcp` |
 
 Generic (`mcpServers`):

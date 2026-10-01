@@ -1,0 +1,10 @@
+{
+  "name": "clino",
+  "version": "1.2.0",
+  "description": "Swiss household employment rules for all 26 cantons: employer cost, net wage, minimum wage, deadlines, with the official source of every figure.",
+  "mcpServers": {
+    "clino": {
+      "httpUrl": "https://clino.ch/mcp"
+    }
+  }
+}
