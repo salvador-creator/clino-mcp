@@ -1,5 +1,8 @@
 # Clino MCP server: Swiss household employment
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23084533.svg)](https://doi.org/10.5281/zenodo.23084533)
+
+
 A free, read-only [Model Context Protocol](https://modelcontextprotocol.io) server that gives AI assistants the rules, rates and deadlines for employing household help in Switzerland (cleaner, nanny, carer), for all 26 cantons, with the official source behind every figure.
 
 **Endpoint:** `https://clino.ch/mcp` (Streamable HTTP, no sign-in, no API key)
@@ -80,6 +83,8 @@ The figures the server uses are published here under **CC BY 4.0** ([LICENSE](LI
 Rates year 2026, last verified against the official sources on the date in each file. This is a snapshot; the always-current files are on clino.ch, built from the same engine as the server: [official-figures.csv](https://clino.ch/opendata/official-figures.csv), [official-figures.json](https://clino.ch/opendata/official-figures.json), [canton-summary.csv](https://clino.ch/opendata/canton-summary.csv). Corrections are welcome as issues.
 
 The human-readable version of the sources is at [clino.ch/en/sources](https://clino.ch/en/sources).
+
+To cite the dataset: Clino (2026). *Swiss household employment: official figures and canton rules 2026*. Zenodo. https://doi.org/10.5281/zenodo.23084533 (all versions; this release: [10.5281/zenodo.23084534](https://doi.org/10.5281/zenodo.23084534)).
 
 ## Privacy
 

@@ -6,6 +6,7 @@ authors:
   - name: "Clino"
     website: "https://clino.ch"
 version: "2026.1"
+doi: "10.5281/zenodo.23084533"
 date-released: "2026-10-01"
 license: CC-BY-4.0
 url: "https://clino.ch/en/mcp"
