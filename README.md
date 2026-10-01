@@ -77,7 +77,7 @@ The figures the server uses are published here under **CC BY 4.0** (attribution:
 | [`data/canton-summary-2026.csv`](data/canton-summary-2026.csv) | One row per canton: compensation office, family allowance fund rate, admin fee, child and education allowances, minimum wage from 5 h/week, KTG obligation, sick pay scale |
 | [`data/canton-rules-2026.json`](data/canton-rules-2026.json) | The full canton rules as the server returns them, 26 cantons |
 
-Rates year 2026, last verified against the official sources on the date in each file. The live server is updated when the authorities publish new figures; this snapshot may lag. Corrections are welcome as issues.
+Rates year 2026, last verified against the official sources on the date in each file. This is a snapshot; the always-current files are on clino.ch, built from the same engine as the server: [official-figures.csv](https://clino.ch/opendata/official-figures.csv), [official-figures.json](https://clino.ch/opendata/official-figures.json), [canton-summary.csv](https://clino.ch/opendata/canton-summary.csv). Corrections are welcome as issues.
 
 The human-readable version of the sources is at [clino.ch/en/sources](https://clino.ch/en/sources).
 
