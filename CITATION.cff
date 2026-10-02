@@ -15,9 +15,11 @@ abstract: >-
   The contribution rates, thresholds, minimum wages, family allowances and
   canton rules that apply when a private household in Switzerland employs a
   cleaner, nanny or carer, for all 26 cantons and the 2026 rates year. Each of
-  the 151 figures carries its official source document, URL, verbatim quote
-  and verification date. The same data powers the Clino MCP server
-  (https://clino.ch/mcp).
+  the 151 figures carries its official source document, URL and verification
+  date; 131 also carry the sentence of the source that states the value, and a
+  confidence column marks the 20 carried forward from an earlier check. The
+  same data powers the Clino MCP server (https://clino.ch/mcp). CC BY 4.0
+  covers Clino's compilation, not the quoted source texts.
 keywords:
   - Switzerland
   - household employment

@@ -64,7 +64,7 @@ All tools are read-only (`readOnlyHint: true`), return structured content with a
 | `get_minimum_wage` | The binding floor for household work: cantonal minimum wage (GE, NE, JU, TI, BS) or the NAV standard contract, by skill level |
 | `get_canton_rules` | One canton: compensation office and its registration form, contribution rates, family allowances, sick pay scale, daily sickness insurance (KTG), withholding tax, childcare deduction |
 | `get_employer_guide` | What a household employer has to do, step by step, by role (cleaner, nanny, carer) |
-| `get_official_sources` | The official documents behind the figures, with the exact quote and the date it was checked |
+| `get_official_sources` | The official documents behind the figures, with the date each was checked and, where recorded, the sentence that states the value |
 | `search` / `fetch` | Search and read Clino's canton pages, guides and source notes (the pair ChatGPT connectors expect) |
 
 Two prompts are included: `hiring_plan` (plan for employing someone) and `check_my_wage` (for workers: is my wage legal, what should my payslip show).
@@ -73,11 +73,13 @@ See [`examples/`](examples) for full requests and responses.
 
 ## Open data
 
-The figures the server uses are published here under **CC BY 4.0** ([LICENSE](LICENSE)). Attribution: "Clino (clino.ch)" with a link to https://clino.ch/en/sources. General information, not legal advice, provided without warranty.
+Clino's compilation of the figures the server uses is published here under **CC BY 4.0** ([LICENSE](LICENSE)). Attribution: "Clino (clino.ch)" with a link to https://clino.ch/en/sources. General information, not legal advice, provided without warranty.
+
+What the licence covers: the selection, structure, labels and values as Clino compiled them. It does not cover the documents the figures come from. Laws and ordinances are quoted from the official collections. Quotes from other publications, such as the AHV/IV leaflets, are short citations with their source, and those texts stay under their publishers' terms.
 
 | File | Content |
 |---|---|
-| [`data/official-figures-2026.csv`](data/official-figures-2026.csv) / [`.json`](data/official-figures-2026.json) | 151 figures (contribution rates, thresholds, minimum wages, allowances), each with source document, URL, verbatim quote and verification date |
+| [`data/official-figures-2026.csv`](data/official-figures-2026.csv) / [`.json`](data/official-figures-2026.json) | 151 figures (contribution rates, thresholds, minimum wages, allowances), each with source document, URL and verification date. 131 also carry the sentence of the source that states the value. The `confidence` column says how each was checked: `verified` (129), `carried` forward from an earlier check without a quote (20), `derived` (1), `verified-basis-inferred` (1) |
 | [`data/canton-summary-2026.csv`](data/canton-summary-2026.csv) | One row per canton: compensation office, family allowance fund rate, admin fee, child and education allowances, minimum wage from 5 h/week, KTG obligation, sick pay scale |
 | [`data/canton-rules-2026.json`](data/canton-rules-2026.json) | The full canton rules as the server returns them, 26 cantons |
 

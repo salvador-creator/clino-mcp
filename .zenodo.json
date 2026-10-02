@@ -6,7 +6,7 @@
       "name": "Clino"
     }
   ],
-  "description": "<p>The contribution rates, thresholds, minimum wages, family allowances and canton rules that apply when a private household in Switzerland employs a cleaner, nanny or carer, for all 26 cantons and the 2026 rates year.</p><p>Each of the 151 figures carries its official source document, URL, verbatim quote and verification date. Files: official-figures-2026 (CSV and JSON), canton-summary-2026.csv and canton-rules-2026.json.</p><p>The same data powers the free, read-only Clino MCP server at https://clino.ch/mcp (documentation: https://clino.ch/en/mcp). Always-current copies: https://clino.ch/opendata/official-figures.csv</p><p>General information, not legal advice.</p>",
+  "description": "<p>The contribution rates, thresholds, minimum wages, family allowances and canton rules that apply when a private household in Switzerland employs a cleaner, nanny or carer, for all 26 cantons and the 2026 rates year.</p><p>Each of the 151 figures carries its official source document, URL and verification date; 131 also carry the sentence of the source that states the value, and a confidence column marks the 20 carried forward from an earlier check. CC BY 4.0 covers Clino's compilation (selection, structure, labels and values), not the quoted source texts, which stay under their publishers' terms. Files: official-figures-2026 (CSV and JSON), canton-summary-2026.csv and canton-rules-2026.json.</p><p>The same data powers the free, read-only Clino MCP server at https://clino.ch/mcp (documentation: https://clino.ch/en/mcp). Always-current copies: https://clino.ch/opendata/official-figures.csv</p><p>General information, not legal advice.</p>",
   "license": "cc-by-4.0",
   "access_right": "open",
   "version": "2026.1",
